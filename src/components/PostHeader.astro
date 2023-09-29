@@ -1,0 +1,26 @@
+---
+//utils
+import { slugify, formatDate } from "../js/utils";
+
+const { title, date, category, author, image } = Astro.props;
+---
+
+<header>
+  <div class="mt-4">
+    <small class="block text-center">
+      <a
+        href={`/category/${slugify(category)}/`}
+        class="text-white bg-slate-950 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-2 py-2 mr-2 mb-2 dark:bg-black dark:hover:bg-slate-950 focus:outline-none dark:focus:ring-blue-800 mt-4"
+        >{category}</a
+      >
+    </small>
+    <h1 class="text-4xl font-bold dark:text-white text-center mt-4">{title}</h1>
+
+    <p class="text-center">
+      by <a href={`/author/${slugify(author)}/`}>{author}</a> - {
+        formatDate(date)
+      }
+    </p>
+  </div>
+  <img class="mt-4 mx-auto" src={image.src} alt={image.alt} />
+</header>

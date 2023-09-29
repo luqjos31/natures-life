@@ -1,0 +1,61 @@
+---
+// utils imports
+import MainLayout from "../layouts/MainLayout.astro";
+
+import PostCard from "../components/PostCard.astro";
+
+import { formatBlogPosts, formatBlogPostsCollections } from "../js/utils";
+import Link from "../components/Link.astro";
+import { getCollection } from "astro:content";
+
+// const allPosts = await Astro.glob("./blog/*.md");
+
+const allPosts = await getCollection("blog");
+console.log(allPosts);
+const formattedPosts = formatBlogPostsCollections(allPosts);
+
+return formattedPosts.map((entry) => ({
+  params: { slug: entry.slug },
+  props: { entry },
+}));
+
+// const formattedPosts = formatBlogPosts(allPosts, {
+//   filterOutDrafts: false,
+//   sortByDate: true,
+//   limit: 7,
+// });
+---
+
+<MainLayout>
+  <section class="flex mx-auto my-4 gap-5 max-w-3xl mt-8" aria-label="About Me">
+    <img
+      src="/images/curso-de-bobinado-de-motores-electricos-y-electricidad-industrial.jpeg/"
+      alt="motor-ac"
+      width="200"
+    />
+    <div class="content">
+      <h1 class="text-3xl font-bold dark:text-white">My blog</h1>
+      <p class="pt-3 my-6">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas
+        reiciendis illum assumenda doloribus voluptatem, odit inventore tenetur
+        soluta
+      </p>
+      <Link
+        href="mailto:chris@codingpublic.dev"
+        style="primary"
+        text="Say Hello"
+      />
+    </div>
+  </section>
+
+  <section class="" aria-label="New Blog Posts">
+    <h2 class="ml-14 mt-4 text-5xl font-extrabold dark:text-white">
+      New Blog Posts
+    </h2>
+    {
+      formattedPosts.map((post) => (
+        <PostCard frontmatter={post.frontmatter} url={post.url} tagType="h3" />
+      ))
+    }
+  </section>
+</MainLayout>

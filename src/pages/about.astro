@@ -1,0 +1,27 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Link from "../components/Link.astro";
+---
+
+<MainLayout title="About" description="About description">
+  <section class="flex mx-auto my-4 gap-5 max-w-3xl mt-8" aria-label="About Me">
+    <img
+      src="/images/curso-de-bobinado-de-motores-electricos-y-electricidad-industrial.jpeg/"
+      alt="motor-ac"
+      width="200"
+    />
+    <div class="content">
+      <h1 class="text-3xl font-bold dark:text-white">My blog</h1>
+      <p class="pt-3 my-6">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas
+        reiciendis illum assumenda doloribus voluptatem, odit inventore tenetur
+        soluta
+      </p>
+      <Link
+        href="mailto:chris@codingpublic.dev"
+        style="primary"
+        text="Contact me"
+      />
+    </div>
+  </section>
+</MainLayout>

@@ -1,0 +1,48 @@
+---
+import { Icon } from "astro-icon";
+
+interface Props {
+  text: string;
+  href: string;
+  style: "primary" | "secondary";
+  icon?: {
+    name: string;
+    side: "left" | "right";
+  };
+  isFilled?: boolean;
+  borderVisible?: boolean;
+  classes?: string;
+}
+
+const {
+  text,
+  href,
+  style,
+  icon,
+  isFilled = true,
+  borderVisible = false,
+  classes,
+  ...rest
+} = Astro.props as Props;
+
+const buttonClass =
+  "text-white bg-slate-950 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-slate-900 dark:hover:bg- focus:outline-none dark:focus:ring-blue-800 mt-4";
+---
+
+<a href={href} class:list={[]} {...rest}>
+  {
+    icon && icon.side === "left" && (
+      <Icon name={icon.name} height="24" width="24" />
+    )
+  }
+
+  <!-- <span class={style}> {text}</span> -->
+
+  <span class=`mt-12 px-8 ${isFilled && buttonClass}`>{text}</span>
+
+  {
+    icon && icon.side === "right" && (
+      <Icon name={icon.name} height="24" width="24" />
+    )
+  }
+</a>

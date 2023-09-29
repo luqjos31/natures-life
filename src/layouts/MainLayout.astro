@@ -1,0 +1,20 @@
+---
+const { title = "My Astro Blog",
+        description = "My musings about the Astro framework" } = Astro.props;
+
+import MainHead from "./MainHead.astro";
+import Footer from "../components/Footer.astro";
+import Nav from "../components/Nav.astro";
+
+---
+
+<html lang="en">
+  <MainHead { title } { description } />
+	<body>
+		<Nav/>
+		<main>
+		  <slot/>
+		</main>
+	 <Footer/>
+	</body>
+</html>
