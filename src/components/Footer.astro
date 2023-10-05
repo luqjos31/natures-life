@@ -1,11 +1,18 @@
 ---
-
+import Icon from "astro-icon";
 ---
-
 <footer>
   <small>
     Copyrigth &copy; <span id="copyright"></span> | All rights reserved
   </small>
+<small>
+<a href="/rss.xml">
+Suscribe to RSS
+<Icon name = "tabler:rss" width="20" height="20"/>
+</a>
+
+</small>
+
   <script>
     document.querySelector("#copyright").textContent = new Date()
       .getFullYear()

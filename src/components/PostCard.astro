@@ -1,11 +1,11 @@
 ---
 //utils
 import { slugify, formatDate } from "../js/utils";
-// components imports
+// components importear
 import Link from "./Link.astro";
-const { frontmatter, url, tagType } = Astro.props;
+const { frontmatter, tagType } = Astro.props;
 const Tag = tagType;
-const { title, date, author, image, description, category } = frontmatter;
+const { title, date, author, image, description, category } = frontmatter.data;
 ---
 
 <!-- <pre>{ JSON.stringify(frontmatter,null,2)}</pre> -->
@@ -18,24 +18,24 @@ const { title, date, author, image, description, category } = frontmatter;
         >{category}</a
       >
     </small>
-    <a href={url} aria-hidden="true" tabindex="-1">
+    <a href={`/blog/${frontmatter.slug}`} aria-hidden="true" tabindex="-1">
       <img class="mt-2" src={image.src} alt={image.alt} width="200" />
     </a>
 
     <div class="content">
       <div>
         <Tag class="text-4xl font-bold dark:text-white">
-          <a href={url}>{title}</a>
+          <a href={`/blog/${frontmatter.slug}`}>{title}</a>
         </Tag>
 
         <small>
           by <a href={`/author/${slugify(author)}/`}>{author}</a> - {
-            formatDate(date)
+            formatDate(date.toDateString())
           }
         </small>
       </div>
     </div>
     <p class="my-8">{description}</p>
-    <Link href={url} isFilled={true} text="Read Post" style="secondary" />
+    <Link href={`/blog/${frontmatter.slug}`} isFilled={true} text="Read Post" style="secondary" />
   </article>
 </div>

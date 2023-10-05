@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPostLayout.astro"
 title: A Post about Important Items of Life asi es
 date: 2020-11-20
 author: Bubba McClure
@@ -9,7 +8,7 @@ image: {
 }
 description: Have you ever wondered what the most important items of life are? Well, wonder no more!
 draft: false
-category: general 
+category: reference docs 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non rhoncus urna. Donec consectetur magna in velit porttitor, eget pretium tortor ultrices. Cras vel tristique est. Phasellus tempor pulvinar nulla id mollis. Cras fringilla vulputate velit ac hendrerit. Cras porta rhoncus quam eu egestas. Suspendisse potenti. Sed eleifend lectus in odio fermentum luctus.

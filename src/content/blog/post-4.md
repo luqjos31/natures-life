@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPostLayout.astro"
 title: A Post about Important Items of Life de verdad que si
 date: 2023-01-31
 author: Darnell McClure

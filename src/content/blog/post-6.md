@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPostLayout.astro"
 title: A Post about Important Items of Life es la unica
 date: 2019-05-30
 author: Darnell McClure

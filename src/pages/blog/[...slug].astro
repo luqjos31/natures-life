@@ -4,19 +4,22 @@ import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
 
 import MainLayout from "../../layouts/MainLayout.astro";
+import MarkdownPostLayout from "../../layouts/BlogPostLayout.astro";
+
 import PostCard from "../../components/PostCard.astro";
 import Pagination from "../../components/Pagination.astro";
 import CategoryCloud from "../../components/CategoryCloud.astro";
 
 // utils imports
-import { formatBlogPosts } from "../../js/utils";
+import { formatBlogPostsCollections } from "../../js/utils";
+import { format } from "prettier";
+import BlogPostLayout from "../../layouts/BlogPostLayout.astro";
 
-export async function getStaticPaths({ paginate }) {
+export async function getStaticPaths() {
   // const allPosts = await Astro.glob("./*.md");
 
   const allPosts = await getCollection("blog");
-  console.log(allPosts);
-  const formattedPosts = formatBlogPosts(allPosts);
+  const formattedPosts = formatBlogPostsCollections(allPosts);
 
   return formattedPosts.map((entry) => ({
     params: { slug: entry.slug },
@@ -32,33 +35,8 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 
 // const { page } = Astro.props
-// console.log(page);
 ---
 
-<MainLayout title="My Blog">
-  <section class="" aria-label="New Blog Posts">
-    <h1 class="ml-14 mt-4 text-5xl font-extrabold dark:text-white">
-      New Blog Posts
-    </h1>
-    <div class="post-container">
-      <!-- {
-        page.data.map((post) => (
-          <PostCard
-            frontmatter={post.frontmatter}
-            url={post.url}
-            tagType="h2"
-          />
-        ))
-      } -->
-    </div>
-
-    <!-- <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} /> -->
-  </section>
-
-  <aside class="container" aria-label="Blog Categories">
-    <h2 class="ml-14 mt-4 text-3xl font-bold dark:text-white">
-      Blog Categories
-    </h2>
-    <CategoryCloud showCount={true} />
-  </aside>
-</MainLayout>
+<BlogPostLayout frontmatter = {entry.data}>
+  <Content />
+</BlogPostLayout>

@@ -1,11 +1,3 @@
-a {
-  color: yellow;
-  
-}
-
-.primary {
-
-  color: yellow;
-  background-color: green;
-  
+.h2{
+  @apply ml-14 mt-4 text-5xl font-extrabold dark:text-white
 }

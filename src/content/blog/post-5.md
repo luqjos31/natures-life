@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPostLayout.astro"
 title: A Post about Important Items of Life imposible
 date: 2019-11-20
 author: Darnell McClure

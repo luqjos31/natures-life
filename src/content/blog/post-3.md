@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPostLayout.astro"
 title: A Post about Important Items of Life no te creo
 date: 2023-08-25
 author: Karem McClure

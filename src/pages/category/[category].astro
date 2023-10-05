@@ -3,7 +3,11 @@
 import MainLayout from "../../layouts/MainLayout.astro";
 import PostCard from "../../components/PostCard.astro";
 
-import { slugify, formatBlogPosts } from "../../js/utils";
+import {
+  slugify,
+  formatBlogPosts,
+  formatBlogPostsCollections,
+} from "../../js/utils";
 
 // utils
 export async function getStaticPaths() {
@@ -28,14 +32,19 @@ export async function getStaticPaths() {
 }
 const { category } = Astro.params;
 const { name } = Astro.props;
-const allPosts = await Astro.glob("../blog/*.md");
-const formattedPosts = formatBlogPosts(allPosts, {
-  filterOutDrafts: false,
+
+import { getCollection } from "astro:content";
+
+// const allPosts = await Astro.glob("./blog/*.md");
+
+const allPosts = await getCollection("blog");
+const formattedPosts = formatBlogPostsCollections(allPosts, {
   sortByDate: true,
+  filterOutDrafts: false,
 });
 
 const catPost = formattedPosts.filter(
-  (post) => slugify(post.frontmatter.category) === category
+  (post) => slugify(post.data.category) === category
 );
 ---
 
@@ -47,7 +56,7 @@ const catPost = formattedPosts.filter(
 
     {
       catPost.map((post) => (
-        <PostCard frontmatter={post.frontmatter} url={post.url} tagType="h2" />
+        <PostCard frontmatter={post} tagType="h2" />
       ))
     }
   </section>

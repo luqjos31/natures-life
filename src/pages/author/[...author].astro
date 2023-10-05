@@ -3,23 +3,24 @@
 import MainLayout from "../../layouts/MainLayout.astro";
 import PostCard from "../../components/PostCard.astro";
 
-import { slugify, formatBlogPosts } from "../../js/utils";
+import { slugify , formatBlogPostsCollections } from "../../js/utils";
+import { getCollection } from "astro:content";
 
 // utils
 export async function getStaticPaths() {
-  const allPosts = await Astro.glob("../blog/*.md");
-  const formattedPosts = formatBlogPosts(allPosts, {
+  const allPosts = await getCollection("blog");
+  const formattedPosts = formatBlogPostsCollections(allPosts, {
     filterOutDrafts: false,
     sortByDate: true,
   });
 
   const allAuthors = [
-    ...new Set(formattedPosts.map((post) => post.frontmatter.author).flat()),
+    ...new Set(formattedPosts.map((post) => post.data.author).flat()),
   ];
 
   return allAuthors.map((author) => {
     const authorPosts = formattedPosts.filter(
-      (post) => post.frontmatter.author === author
+      (post) => post.data.author === author
     );
 
     return {
@@ -29,7 +30,6 @@ export async function getStaticPaths() {
   });
 }
 
-const { author } = Astro.params;
 const { posts, authorName } = Astro.props;
 ---
 
@@ -41,7 +41,7 @@ const { posts, authorName } = Astro.props;
 
   {
     posts.map((post) => (
-      <PostCard frontmatter={post.frontmatter} url={post.url} tagType="h2" />
+      <PostCard frontmatter={post} tagType="h2" />
     ))
   }
 </section>

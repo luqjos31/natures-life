@@ -4,30 +4,39 @@ import PostHeader from "../components/PostHeader.astro";
 import CategoryCloud from "../components/CategoryCloud.astro";
 import RelatedPosts from "../components/RelatedPosts.astro";
 // util imports
-import { formatBlogPosts } from "../js/utils";
+import { formatBlogPostsCollections } from "../js/utils";
+import { getCollection } from "astro:content";
 
-const { frontmatter } = Astro.props;
-const { title, description, date, category, author, image } = frontmatter;
-// console.log(frontmatter)
-const allPosts = await Astro.glob("../pages/blog/*.md");
-const formattedPosts = formatBlogPosts(allPosts, { sortByDate: false });
+const allPosts = await getCollection("blog");
+const formattedPosts = formatBlogPostsCollections(allPosts, {
+  sortByDate: false,
+});
 
-let relatedPosts = formattedPosts.filter(
+const { frontmatter, url } = Astro.props;
+
+const { title, description, date, category, image, author } = frontmatter;
+
+const relatedPosts = formattedPosts.filter(
   (post) =>
-    post.frontmatter.category.toLowerCase() === category.toLowerCase() &&
-    post.frontmatter.title !== title
+    post.data.category.toLowerCase() === category.toLowerCase() &&
+    post.data.title !== title
 );
 
-console.log(relatedPosts);
+
+
 ---
 
-<MainLayout {title} {description}>
+<MainLayout {title} {description} {image} {frontmatter} robots = {frontmatter.robots}>
   <PostHeader {title} {description} {date} {category} {image} {author} />
-  <div class="max-w-3xl mx-auto">
-    <div class="mt-4">
+
+  <div class="mx-auto">
+  <div class="mt-4 p-8 grid grid-cols-1 gap-4 md:grid-cols-3">
+    
+    <div class="mt-4 w-full col-span-2">
       <slot />
     </div>
-    <div class="sidebar">
+
+    <div class="sidebar w-full">
       <aside class="container" aria-label="Blog Categories">
         <h2 class="text-3xl font-bold dark:text-white mt-4 ml-6">
           Blog Categories
@@ -44,6 +53,7 @@ console.log(relatedPosts);
           </aside>
         )
       }
+    </div>
     </div>
   </div>
 </MainLayout>

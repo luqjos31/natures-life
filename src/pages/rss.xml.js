@@ -1,20 +1,30 @@
-// import rss from '@astrojs/rss';
-// import { getCollection } from 'astro:content';
+import rss from '@astrojs/rss';
+import { getCollection } from 'astro:content';
+import { formatBlogPostsCollections } from '../js/utils';
 
-// export async function GET(context) {
-//   const blog = await getCollection('blog');
-//   return rss({
-//     title: 'Astro blog',
-//     description: 'A humble Astronaut’s guide to the stars',
-//     site: context.site,
-//     items: blog.map((post) => ({
-//       title: post.data.title,
-//       pubDate: post.data.pubDate,
-//       description: post.data.description,
-//       customData: post.data.customData,
-//       // Compute RSS link from post `slug`
-//       // This example assumes all posts are rendered as `/blog/[slug]` routes
-//       link: `./blog/${post.slug}/`,
-//     })),
-//   });
-// }
+ export async function GET(context) {
+   const allPosts = await getCollection('blog');
+
+const formattedPosts = formatBlogPostsCollections(allPosts, {
+  sortByDate: true,
+  filterOutDrafts: false,
+});
+
+   return rss({
+      // ex. use your stylesheet from "public/rss/styles.xsl"
+     stylesheet: '/rss/styles.xsl',
+     title: 'Astro blog',
+     description: 'A humble Astronaut’s guide to the stars',
+     site: context.site,
+     items: formattedPosts.map((post) => ({
+       title: post.data.title,
+       pubDate: post.data.date,
+       description: post.data.description,
+       author: post.data.author,
+      //  customData: post.data.customData,
+       // Compute RSS link from post `slug`
+       // This example assumes all posts are rendered as `/blog/[slug]` routes
+       link: `./blog/${post.slug}/`,
+     })),
+   });
+ }

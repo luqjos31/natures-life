@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPostLayout.astro"
 title: A Post about Important Items of Life es cierto
 date: 2021-11-20
 author: Darnell McClure

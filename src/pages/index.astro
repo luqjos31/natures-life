@@ -1,7 +1,7 @@
 ---
 // utils imports
+import "../styles/global.css"
 import MainLayout from "../layouts/MainLayout.astro";
-
 import PostCard from "../components/PostCard.astro";
 
 import { formatBlogPosts, formatBlogPostsCollections } from "../js/utils";
@@ -11,14 +11,15 @@ import { getCollection } from "astro:content";
 // const allPosts = await Astro.glob("./blog/*.md");
 
 const allPosts = await getCollection("blog");
-console.log(allPosts);
-const formattedPosts = formatBlogPostsCollections(allPosts);
+const formattedPosts = formatBlogPostsCollections(allPosts, {
+  sortByDate: true,
+  filterOutDrafts: false,
+});
 
-return formattedPosts.map((entry) => ({
-  params: { slug: entry.slug },
-  props: { entry },
-}));
-
+// return formattedPosts.map((entry) => ({
+//   params: { slug: entry.slug },
+//   props: { entry },
+// }));
 // const formattedPosts = formatBlogPosts(allPosts, {
 //   filterOutDrafts: false,
 //   sortByDate: true,
@@ -49,12 +50,17 @@ return formattedPosts.map((entry) => ({
   </section>
 
   <section class="" aria-label="New Blog Posts">
-    <h2 class="ml-14 mt-4 text-5xl font-extrabold dark:text-white">
-      New Blog Posts
-    </h2>
+    <h2 class="h2">New Blog Posts</h2>
+
     {
       formattedPosts.map((post) => (
-        <PostCard frontmatter={post.frontmatter} url={post.url} tagType="h3" />
+        <>
+          <PostCard
+            frontmatter={post}
+            tagType="h3"
+          />
+          <p>{post.slug}</p>
+        </>
       ))
     }
   </section>
