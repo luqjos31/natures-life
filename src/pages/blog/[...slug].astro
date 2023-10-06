@@ -1,18 +1,11 @@
 ---
 import type { GetStaticPaths } from "astro";
+import "../../styles/global.css";
 
 import { getCollection } from "astro:content";
 
-import MainLayout from "../../layouts/MainLayout.astro";
-import MarkdownPostLayout from "../../layouts/BlogPostLayout.astro";
-
-import PostCard from "../../components/PostCard.astro";
-import Pagination from "../../components/Pagination.astro";
-import CategoryCloud from "../../components/CategoryCloud.astro";
-
 // utils imports
 import { formatBlogPostsCollections } from "../../js/utils";
-import { format } from "prettier";
 import BlogPostLayout from "../../layouts/BlogPostLayout.astro";
 
 export async function getStaticPaths() {
@@ -37,6 +30,6 @@ const { Content } = await entry.render();
 // const { page } = Astro.props
 ---
 
-<BlogPostLayout frontmatter = {entry.data}>
-  <Content />
+<BlogPostLayout frontmatter={entry.data}>
+  <Content class:list={"prose prose-slate"} />
 </BlogPostLayout>

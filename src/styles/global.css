@@ -1,3 +1,19 @@
-.h2{
-  @apply ml-14 mt-4 text-5xl font-extrabold dark:text-white
+h2{
+  margin-left:  0em !important; 
+  font-size: 2rem !important; 
 }
+
+p{
+margin-bottom: 2rem !important;
+color:gray;
+}
+
+ul{
+  list-style-type: square !important;
+  margin-bottom: 2rem !important;
+}
+
+.h2{
+  @apply ml-14 mt-4 text-4xl font-extrabold dark:text-white
+}
+

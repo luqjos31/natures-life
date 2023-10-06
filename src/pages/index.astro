@@ -1,6 +1,6 @@
 ---
 // utils imports
-import "../styles/global.css"
+import "../styles/global.css";
 import MainLayout from "../layouts/MainLayout.astro";
 import PostCard from "../components/PostCard.astro";
 
@@ -50,18 +50,16 @@ const formattedPosts = formatBlogPostsCollections(allPosts, {
   </section>
 
   <section class="" aria-label="New Blog Posts">
-    <h2 class="h2">New Blog Posts</h2>
+    <div class="h2 ml-5">New Blog Posts</div>
 
-    {
-      formattedPosts.map((post) => (
-        <>
-          <PostCard
-            frontmatter={post}
-            tagType="h3"
-          />
-          <p>{post.slug}</p>
-        </>
-      ))
-    }
+    <div class="flex flex-wrap justify-evenly">
+      {
+        formattedPosts.map((post) => (
+          <>
+            <PostCard frontmatter={post} tagType="h3" />
+          </>
+        ))
+      }
+    </div>
   </section>
 </MainLayout>

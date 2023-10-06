@@ -11,9 +11,16 @@ draft: false
 category: reference docs 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non rhoncus urna. Donec consectetur magna in velit porttitor, eget pretium tortor ultrices. Cras vel tristique est. Phasellus tempor pulvinar nulla id mollis. Cras fringilla vulputate velit ac hendrerit. Cras porta rhoncus quam eu egestas. Suspendisse potenti. Sed eleifend lectus in odio fermentum luctus.
+## Aprendiendo markdown
+
+ipsum dolor sit amet, consectetur adipiscing elit. Cras non rhoncus urna. Donec consectetur magna in velit porttitor, eget pretium tortor ultrices. Cras vel tristique est. Phasellus tempor pulvinar nulla id mollis. Cras fringilla vulputate velit ac hendrerit. Cras porta rhoncus quam eu egestas. Suspendisse potenti. Sed eleifend lectus in odio fermentum luctus.
 
 Curabitur sed arcu bibendum neque porttitor tempor. Suspendisse eget nunc sed est tempus cursus. Ut faucibus est eros, ac placerat augue congue sed. Proin auctor interdum mattis. Nulla in gravida arcu. Nunc commodo, lacus rhoncus venenatis egestas, libero ligula finibus enim, at porta magna lectus at lorem. Nam viverra libero eget tincidunt scelerisque. Nullam non sapien vitae justo eleifend pharetra sit amet quis sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla tempor gravida lectus in interdum. Mauris convallis eget nibh eget tempus.
+
+* Primavera
+* Verano
+* Otoño 
+* Invierno
 
 Morbi quis massa vulputate, vehicula quam ornare, faucibus est. Proin egestas, nibh non lacinia tincidunt, lacus lorem mattis orci, nec egestas dolor ipsum sit amet leo. Etiam semper arcu a tempor tincidunt. Aliquam ut malesuada est, sit amet facilisis lectus. Integer eget magna a ligula cursus dignissim. Nam vel leo ut ipsum pretium fermentum. Sed mattis est at leo blandit, quis auctor diam feugiat. Fusce a quam semper, congue nulla quis, scelerisque nibh. Nullam eu gravida dui. Donec rutrum leo vel nisi molestie, pretium molestie diam consectetur. Pellentesque at sodales dui.
 

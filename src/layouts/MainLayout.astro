@@ -1,23 +1,24 @@
 ---
-const { title = "My Astro Blog",
-        description = "My musings about the Astro framework",
-			  image,
-		   	frontmatter,
-	     	robots } = Astro.props;
+const {
+  title = "My Astro Blog",
+  description = "My musings about the Astro framework",
+  image,
+  frontmatter,
+  robots,
+} = Astro.props;
 
 import MainHead from "./MainHead.astro";
 import Footer from "../components/Footer.astro";
 import Nav from "../components/Nav.astro";
-
 ---
 
-<html lang="en">
-  <MainHead { title } { description } {image} {frontmatter} {robots}/>
-	<body>
-		<Nav/>
-		<main>
-		  <slot/>
-		</main>
-	 <Footer/>
-	</body>
+<html lang="en" data-theme="dark">
+  <MainHead {title} {description} {image} {frontmatter} {robots} />
+  <body>
+    <Nav />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
 </html>
