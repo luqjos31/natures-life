@@ -3,24 +3,47 @@ import MainLayout from "../layouts/MainLayout.astro";
 import Link from "../components/Link.astro";
 ---
 
-<MainLayout title="About" description="About description" robots = {true}>
-  <section class="flex mx-auto my-4 gap-5 max-w-3xl mt-8" aria-label="About Me">
-    <img
-      src="/images/curso-de-bobinado-de-motores-electricos-y-electricidad-industrial.jpeg/"
-      alt="motor-ac"
-      width="200"
-    />
+<MainLayout title="About" description="About description" robots={true}>
+  <section
+    class="bg-gradient2 flex mx-auto my-4 gap-5 max-w-3xl mt-8 p-8"
+    aria-label="About Me"
+  >
+    <div>
+      <img
+        class="block mx-auto"
+        src="/images/logo-removebg.png"
+        alt="logo-natures-life"
+      />
+    </div>
     <div class="content">
-      <h1 class="text-3xl font-bold dark:text-white">My blog</h1>
-      <p class="pt-3 my-6">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas
-        reiciendis illum assumenda doloribus voluptatem, odit inventore tenetur
-        soluta
+      <!-- <h1 class="text-3xl font-bold dark:text-purple-light">Nature's Life</h1> -->
+      <p class="text-secondary-content pt-3 my-6">
+        En Nature's Llife, nos dedicamos a la venta de productos naturales
+        online con las mejores materias primas del mercado. Nuestras hierbas
+        naturales son seleccionadas cuidadosamente para garantizar su máxima
+        calidad y eficacia.
       </p>
+      <p class="text-secondary-content pt-3 my-6">
+        Con un tratamiento comprobado para sanar las enfermedades. Nuestros
+        expertos en herbolaria han trabajado durante años para desarrollar
+        fórmulas efectivas que puedan ayudar a las personas a mejorar su salud.
+      </p>
+      <p class="text-secondary-content pt-3 my-6">
+        Nature's Life es la opción perfecta para ti. Nuestros productos son
+        seguros, eficaces y asequibles.
+      </p>
+      <p class="text-secondary-content pt-3 my-6">
+        Prueba nuestros productos hoy mismo y descubre la diferencia que pueden
+        hacer en tu salud.
+      </p>
+    </div>
+
+    <div>
       <Link
         href="mailto:chris@codingpublic.dev"
         style="primary"
-        text="Contact me"
+        isFilled={true}
+        text="Cotáctanos"
       />
     </div>
   </section>

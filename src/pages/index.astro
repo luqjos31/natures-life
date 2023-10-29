@@ -1,6 +1,5 @@
 ---
 // utils imports
-import "../styles/global.css";
 import MainLayout from "../layouts/MainLayout.astro";
 import PostCard from "../components/PostCard.astro";
 
@@ -28,36 +27,73 @@ const formattedPosts = formatBlogPostsCollections(allPosts, {
 ---
 
 <MainLayout>
-  <section class="flex mx-auto my-4 gap-5 max-w-3xl mt-8" aria-label="About Me">
-    <img
-      src="/images/curso-de-bobinado-de-motores-electricos-y-electricidad-industrial.jpeg/"
-      alt="motor-ac"
-      width="200"
-    />
+  <section
+    class="block mx-auto my-4 gap-5 max-w-3xl mt-8 p-8"
+    aria-label="About Me"
+  >
+    <div>
+      <img
+        class="block mx-auto"
+        src="/images/logo-removebg.png"
+        alt="logo-natures-life"
+      />
+    </div>
     <div class="content">
-      <h1 class="text-3xl font-bold dark:text-white">My blog</h1>
-      <p class="pt-3 my-6">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas
-        reiciendis illum assumenda doloribus voluptatem, odit inventore tenetur
-        soluta
+      <!-- <h1 class="text-6xl font-bold dark:text-white-light my-8">
+        Nature's Life
+      </h1> -->
+      <p class="text-2xl text-secondary-content pt-3 my-6">
+        En Nature's Llife, nos dedicamos a la venta de productos naturales
+        online con las mejores materias primas del mercado. Nuestras hierbas
+        naturales son seleccionadas cuidadosamente para garantizar su máxima
+        calidad y eficacia.
       </p>
+      <p class="text-2xl text-secondary-content pt-3 my-6">
+        Con un tratamiento comprobado para sanar las enfermedades. Nuestros
+        expertos en herbolaria han trabajado durante años para desarrollar
+        fórmulas efectivas que puedan ayudar a las personas a mejorar su salud.
+      </p>
+      <p class="text-2xl text-secondary-content pt-3 my-6">
+        Nature's Life es la opción perfecta para ti. Nuestros productos son
+        seguros, eficaces y asequibles.
+      </p>
+      <p class="text-2xl text-secondary-content pt-3 my-6">
+        Prueba nuestros productos hoy mismo y descubre la diferencia que pueden
+        hacer en tu salud.
+      </p>
+
+      <h2
+        class="text-center my-4 pt-8 text-5xl font-extrabold dark:text-white-light"
+      >
+        Nature's Life
+      </h2>
+      <p class="text-2xl text-secondary-content pt-3 my-6">
+        La mejor calidad en productos naturales!
+      </p>
+    </div>
+
+    <div>
       <Link
         href="mailto:chris@codingpublic.dev"
         style="primary"
-        text="Say Hello"
+        isFilled={true}
+        text="Suscríbete"
       />
     </div>
   </section>
 
   <section class="" aria-label="New Blog Posts">
-    <div class="h2 ml-5">New Blog Posts</div>
+    <h2
+      class="text-center mt-4 pt-8 text-5xl font-extrabold dark:text-white-light"
+    >
+      Nuestro Productos
+    </h2>
 
-    <div class="flex flex-wrap justify-evenly">
+    <!-- <div class="flex flex-wrap justify-evenly p-8"> -->
+    <div class="mt-4 p-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       {
         formattedPosts.map((post) => (
-          <>
-            <PostCard frontmatter={post} tagType="h3" />
-          </>
+          <PostCard frontmatter={post} tagType="h3" />
         ))
       }
     </div>

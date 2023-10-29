@@ -9,10 +9,10 @@ import Link from "./Link.astro";
 import navData from "../data/navData.js";
 ---
 
-<nav aria-label="Primary" class="bg-black">
+<nav aria-label="Primary">
   <div class="navbar flex" style={{}}>
     <a href="/" class="logomark" aria-label="Go home">
-      <Icon name="business" width="60" />
+      <img src="/images/logo-removebg.png" width="100" />
     </a>
     <ul class="pt-4 ml-auto">
       {
@@ -22,11 +22,15 @@ import navData from "../data/navData.js";
             href={item.path}
             style="primary"
             isFilled={false}
-            borderVisible={true}
+            borderVisible={false}
           />
         ))
       }
     </ul>
+  </div>
+
+  <div class="max-w-8xl mx-auto px-4">
+    <hr class="border-skin-line border-purple-light" aria-hidden="true" />
   </div>
 </nav>
 

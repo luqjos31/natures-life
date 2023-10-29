@@ -12,9 +12,9 @@ import Footer from "../components/Footer.astro";
 import Nav from "../components/Nav.astro";
 ---
 
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
   <MainHead {title} {description} {image} {frontmatter} {robots} />
-  <body>
+  <body class="bg-gradient2">
     <Nav />
     <main>
       <slot />

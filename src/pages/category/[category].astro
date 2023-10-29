@@ -54,10 +54,8 @@ const catPost = formattedPosts.filter(
       Post about <span>{name}</span>
     </h1>
 
-    {
-      catPost.map((post) => (
-        <PostCard frontmatter={post} tagType="h2" />
-      ))
-    }
+    <div class="mt-4 p-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+      {catPost.map((post) => <PostCard frontmatter={post} tagType="h2" />)}
+    </div>
   </section>
 </MainLayout>

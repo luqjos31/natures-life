@@ -5,7 +5,8 @@ import { slugify, formatDate } from "../js/utils";
 import Link from "./Link.astro";
 const { frontmatter, tagType } = Astro.props;
 const Tag = tagType;
-const { title, date, author, image, description, category } = frontmatter.data;
+const { title, date, author, image, image2, description, category } =
+  frontmatter.data;
 ---
 
 <!-- <pre>{ JSON.stringify(frontmatter,null,2)}</pre> -->
@@ -13,32 +14,34 @@ const { title, date, author, image, description, category } = frontmatter.data;
   <small class="">
     <a
       href={`/category/${slugify(category)}/`}
-      class="text-white bg-slate-950 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-2 py-2 mr-2 mb-2 dark:bg-black dark:hover:bg-slate-950 focus:outline-none dark:focus:ring-blue-800 mt-4"
+      class="text-white bg-yellow-600 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-2 py-2 mr-2 mb-2 dark:bg-yellow-600 dark:hover:bg-yellow-600 focus:outline-none dark:focus:ring-blue-800 mt-4"
       >{category}</a
     >
   </small>
 
-  <div class="card card-compact w-96 bg-base-100 shadow-xl">
+  <div class="card card-compact bg-white-light shadow-xl p-4">
     <figure>
       <a href={`/blog/${frontmatter.slug}`} aria-hidden="true" tabindex="-1">
-        <img src={image.src} alt={image.alt} />
+        <img src={image.src} alt={image.alt} width="200" />
       </a>
     </figure>
-    <div class="card-body">
-      <h2 class="card-title dark:text-white">
-        <a href={`/blog/${frontmatter.slug}`}>{title}</a>
+    <div class="card-body p-8">
+      <h2 class="card-title dark:green-dark">
+        <a href={`/blog/${frontmatter.slug}`} class="hover:text-primary"
+          >{title}</a
+        >
       </h2>
-      <small>
+      <!-- <small>
         by <a href={`/author/${slugify(author)}/`}>{author}</a> - {
           formatDate(date.toDateString())
         }
-      </small>
-      <p class="my-8">{description}</p>
+      </small> -->
+      <p class="my-4">{description}</p>
       <div class="card-actions justify-end">
         <Link
           href={`/blog/${frontmatter.slug}`}
           isFilled={true}
-          text="Read Post"
+          text="Leer Post"
           style="secondary"
         />
       </div>

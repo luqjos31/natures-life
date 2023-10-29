@@ -14,46 +14,57 @@ const formattedPosts = formatBlogPostsCollections(allPosts, {
 
 const { frontmatter, url } = Astro.props;
 
-const { title, description, date, category, image, author } = frontmatter;
+const { title, description, date, category, image, image2, author } =
+  frontmatter;
 
 const relatedPosts = formattedPosts.filter(
   (post) =>
     post.data.category.toLowerCase() === category.toLowerCase() &&
     post.data.title !== title
 );
-
-
-
 ---
 
-<MainLayout {title} {description} {image} {frontmatter} robots = {frontmatter.robots}>
-  <PostHeader {title} {description} {date} {category} {image} {author} />
+<MainLayout
+  {title}
+  {description}
+  {image}
+  {frontmatter}
+  robots={frontmatter.robots}
+>
+  <PostHeader
+    {title}
+    {description}
+    {date}
+    {category}
+    {image}
+    {image2}
+    {author}
+  />
 
   <div class="mx-auto">
-  <div class="mt-4 p-8 grid grid-cols-1 gap-4 md:grid-cols-3">
-    
-    <div class="mt-4 w-full col-span-2">
-      <slot />
-    </div>
+    <div class="mt-4 p-8 grid grid-cols-1 gap-6 md:grid-cols-3">
+      <div class="mt-4 w-full col-span-2">
+        <slot />
+      </div>
 
-    <div class="sidebar w-full">
-      <aside class="container" aria-label="Blog Categories">
-        <h2 class="text-3xl font-bold dark:text-white mt-4 ml-6">
-          Blog Categories
-        </h2>
-        <CategoryCloud />
-      </aside>
-      {
-        relatedPosts.length > 0 && (
-          <aside class="container" aria-label="Related posts">
-            <h2 class="text-3xl font-bold dark:text-white mt-4 ml-6">
-              Related Posts
-            </h2>
-            <RelatedPosts {relatedPosts} />
-          </aside>
-        )
-      }
-    </div>
+      <div class="sidebar w-full">
+        <aside class="container" aria-label="Blog Categories">
+          <h2 class="text-3xl font-bold dark:text-white-light mt-4">
+            Categorías
+          </h2>
+          <CategoryCloud />
+        </aside>
+        {
+          relatedPosts.length > 0 && (
+            <aside class="container" aria-label="Related posts">
+              <h2 class="text-3xl font-bold dark:text-white-light mt-4 ml-6">
+                Related Posts
+              </h2>
+              <RelatedPosts {relatedPosts} />
+            </aside>
+          )
+        }
+      </div>
     </div>
   </div>
 </MainLayout>

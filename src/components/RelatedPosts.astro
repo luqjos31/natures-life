@@ -1,14 +1,16 @@
 ---
 import { slugify, formatDate } from "../js/utils";
-const { relatedPosts} = Astro.props;
-    // <pre>{post.slug}</pre>  
+const { relatedPosts } = Astro.props;
+// <pre>{post.slug}</pre>
 ---
 
 {
   relatedPosts.map((post) => (
-    <div class="post ml-6">
+    <div class="post">
       <h3 class="text-2xl font-bold dark:text-white">
-        <a href={`/blog/${post.slug}`}>{post.data.title}</a>
+        <a class="link text-blue-light" href={`/blog/${post.slug}`}>
+          {post.data.title}
+        </a>
       </h3>
       <small>
         <a href={`/author/${slugify(post.data.author)}/`}>{post.data.author}</a>{" "}
