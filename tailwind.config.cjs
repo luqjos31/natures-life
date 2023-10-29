@@ -14,8 +14,8 @@ module.exports = {
 		,
 		extend: {
 			backgroundImage :{
-			"gradient1": "url('./images/mesh-gradient.png')",
-			"gradient2": "url('./images/mesh-gradient-2.png')",
+			"gradient1": "url('/images/mesh-gradient.png')",
+			"gradient2": "url('/images/mesh-gradient-2.png')",
 			}
 		},
 	},
