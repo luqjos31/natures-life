@@ -1,6 +1,6 @@
 ---
 
-title: Maravillosa Centella Asiática para la piel y la mente 
+title: Centella Asiática  
 date: 2023-10-28
 author: José Lúquez 
 image: {

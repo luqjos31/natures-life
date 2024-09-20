@@ -3,9 +3,14 @@ import MainLayout from "../layouts/MainLayout.astro";
 import Link from "../components/Link.astro";
 ---
 
-<MainLayout title="About" description="About description" robots={true}>
+<MainLayout
+  title="About"
+  class="bg-gradient2"
+  description="About description"
+  robots={true}
+>
   <section
-    class="bg-gradient2 flex mx-auto my-4 gap-5 max-w-3xl mt-8 p-8"
+    class="flex mx-auto my-4 gap-5 max-w-3xl mt-8 p-8"
     aria-label="About Me"
   >
     <div>
@@ -17,34 +22,34 @@ import Link from "../components/Link.astro";
     </div>
     <div class="content">
       <!-- <h1 class="text-3xl font-bold dark:text-purple-light">Nature's Life</h1> -->
-      <p class="text-secondary-content pt-3 my-6">
+      <p class="text-xl text-white-light pt-3 my-6">
         En Nature's Llife, nos dedicamos a la venta de productos naturales
         online con las mejores materias primas del mercado. Nuestras hierbas
         naturales son seleccionadas cuidadosamente para garantizar su máxima
         calidad y eficacia.
       </p>
-      <p class="text-secondary-content pt-3 my-6">
+      <p class="text-xl text-white-light pt-3 my-6">
         Con un tratamiento comprobado para sanar las enfermedades. Nuestros
         expertos en herbolaria han trabajado durante años para desarrollar
         fórmulas efectivas que puedan ayudar a las personas a mejorar su salud.
       </p>
-      <p class="text-secondary-content pt-3 my-6">
+      <p class="text-xl text-white-light pt-3 my-6">
         Nature's Life es la opción perfecta para ti. Nuestros productos son
         seguros, eficaces y asequibles.
       </p>
-      <p class="text-secondary-content pt-3 my-6">
+      <p class="text-xl text-white-light pt-3 my-6">
         Prueba nuestros productos hoy mismo y descubre la diferencia que pueden
         hacer en tu salud.
       </p>
-    </div>
 
-    <div>
-      <Link
-        href="mailto:chris@codingpublic.dev"
-        style="primary"
-        isFilled={true}
-        text="Cotáctanos"
-      />
+      <div>
+        <Link
+          href="mailto:chris@codingpublic.dev"
+          style="primary"
+          isFilled={true}
+          text="Cotáctanos"
+        />
+      </div>
     </div>
   </section>
 </MainLayout>
