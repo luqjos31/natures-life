@@ -1,14 +1,14 @@
 ---
-title: Salud de la próstata con Saw Palmetto Natural
-date: 2023-10-28
+title: Prostavid
+date: 2023-12-02
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/saw-palmetto.png",
-  alt: "saw-palmetto",
+ 	src: "/images/envase-productos/depurativos/prostavid-liq.png",
+  alt: "prostavid-liq",
 }
 description: Saw Palmetto es la solución natural para mantener la salud de la próstata
 draft: false
-category: Nuevo
+category: depurativos
 ---
 
 Saw palmetto es un árbol medicinal que se ha utilizado durante siglos en la medicina tradicional nativa americana para tratar los problemas de la próstata. Sus beneficios para la salud incluyen:

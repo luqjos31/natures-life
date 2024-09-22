@@ -1,13 +1,14 @@
 ---
-title: Equilibrio hormonal con Ñame Salvaje 
-date: 2023-10-28
+title: Chancapiedra
+date: 2023-12-28
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/name-salvaje.png",
+ 	src: "/images/envase-productos/capsulas/chancapiedra-caps.png",
   alt: "name-salvaje",
 }
-description: Ñame Salvaje es tu respuesta natural para el equilibrio hormonal 
+description: Chancapiedra es tu respuesta natural para el equilibrio hormonal 
 draft: false
-category: Nuevo
+category: capsulas
 ---
+
 Ñame Salvaje es tu respuesta natural para el equilibrio hormonal. Estas cápsulas alivian los síntomas de la menopausia y el síndrome premenstrual de forma suave y efectiva. A diferencia de los productos farmacéuticos que a menudo vienen con efectos secundarios no deseados, Ñame Salvaje ofrece una solución libre de riesgos para las mujeres que buscan comodidad en sus cambios hormonales.

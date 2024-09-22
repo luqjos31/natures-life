@@ -1,20 +1,13 @@
 ---
-title: Salud de la próstata con Saw Palmetto Natural
-date: 2023-10-28
+title: Ñame Salvaje 
+date: 2023-12-16
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/saw-palmetto.png",
-  alt: "saw-palmetto",
+ 	src: "/images/envase-productos/capsulas/name-salvaje-caps.png",
+  alt: "name-salvaje",
 }
-description: Saw Palmetto es la solución natural para mantener la salud de la próstata
+description: Ñame Salvaje es tu respuesta natural para el equilibrio hormonal 
 draft: false
-category: Nuevo
+category: capsulas
 ---
-
-Saw palmetto es un árbol medicinal que se ha utilizado durante siglos en la medicina tradicional nativa americana para tratar los problemas de la próstata. Sus beneficios para la salud incluyen:
-
-Reducción de la inflamación: Saw palmetto ayuda a reducir la inflamación de la próstata, lo que puede aliviar los síntomas como la micción frecuente, el dolor al orinar y la dificultad para orinar.
-Mejora de la salud sexual: Saw palmetto ayuda a mejorar la función sexual en los hombres.
-Por qué ingerirla en vez de usar productos farmacéuticos:
-
-Saw palmetto es un suplemento natural que es seguro y eficaz para la mayoría de los hombres. No tiene los mismos efectos secundarios que los medicamentos farmacéutico
+Ñame Salvaje es tu respuesta natural para el equilibrio hormonal. Estas cápsulas alivian los síntomas de la menopausia y el síndrome premenstrual de forma suave y efectiva. A diferencia de los productos farmacéuticos que a menudo vienen con efectos secundarios no deseados, Ñame Salvaje ofrece una solución libre de riesgos para las mujeres que buscan comodidad en sus cambios hormonales.

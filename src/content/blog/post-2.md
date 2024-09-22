@@ -1,14 +1,14 @@
 ---
-title: Control Natural de la Diabetes con Diabet Forte
-date: 2023-10-28
+title: Elixir Antinervioso
+date: 2023-12-22
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/diabet-forte.png",
+ 	src: "/images/envase-productos/capsulas/antinervioso-caps.png",
   alt: "diabet-forte",
 }
 description: Diabet forte es un suplemento natural que ayuda a controlar la diabetes de forma segura y eficaz. 
 draft: false
-category: Nuevo 
+category: capsulas 
 ---
 Diabet forte es un suplemento natural que ayuda a controlar la diabetes de forma segura y eficaz. Sus ingredientes incluyen:
 

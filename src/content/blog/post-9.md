@@ -1,20 +1,21 @@
 ---
-title: Salud de la próstata con Saw Palmetto Natural
-date: 2023-10-28
+title: Diabet Forte
+date: 2023-12-24
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/saw-palmetto.png",
-  alt: "saw-palmetto",
+ 	src: "/images/envase-productos/capsulas/diabet-forte-caps.png",
+  alt: "diabet-forte",
 }
-description: Saw Palmetto es la solución natural para mantener la salud de la próstata
+description: Diabet forte es un suplemento natural que ayuda a controlar la diabetes de forma segura y eficaz. 
 draft: false
-category: Nuevo
+category: capsulas 
 ---
+Diabet forte es un suplemento natural que ayuda a controlar la diabetes de forma segura y eficaz. Sus ingredientes incluyen:
 
-Saw palmetto es un árbol medicinal que se ha utilizado durante siglos en la medicina tradicional nativa americana para tratar los problemas de la próstata. Sus beneficios para la salud incluyen:
+Glucosamina: La glucosamina ayuda a mantener la salud de las células beta del páncreas, que producen insulina.
+L-carnitina: La L-carnitina ayuda a transportar la glucosa a las células, donde se puede utilizar como energía.
+Cromo: El cromo ayuda a mejorar la sensibilidad a la insulina.
+Por qué ingerirlo en vez de usar productos farmacéuticos:
 
-Reducción de la inflamación: Saw palmetto ayuda a reducir la inflamación de la próstata, lo que puede aliviar los síntomas como la micción frecuente, el dolor al orinar y la dificultad para orinar.
-Mejora de la salud sexual: Saw palmetto ayuda a mejorar la función sexual en los hombres.
-Por qué ingerirla en vez de usar productos farmacéuticos:
+Diabet forte es un suplemento natural que no tiene los mismos efectos secundarios que los medicamentos farmacéuticos para la diabetes, como la hipoglucemia, el aumento de peso y la retención de líquidos.
 
-Saw palmetto es un suplemento natural que es seguro y eficaz para la mayoría de los hombres. No tiene los mismos efectos secundarios que los medicamentos farmacéutico

@@ -1,10 +1,10 @@
 ---
-title: Salud de la próstata con Saw Palmetto Natural
-date: 2023-10-28
+title: Colon Saludable
+date: 2023-12-06
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/saw-palmetto.png",
-  alt: "saw-palmetto",
+ 	src: "/images/envase-productos/depurativos/colon-saludable-liq.png",
+  alt: "colon-saludable-liq",
 }
 description: Saw Palmetto es la solución natural para mantener la salud de la próstata
 draft: false

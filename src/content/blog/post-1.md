@@ -1,15 +1,14 @@
 ---
-
-title: Centella Asiática  
-date: 2023-10-28
+title: 47 Plantas  
+date: 2023-12-31
 author: José Lúquez 
 image: {
- 	src: "/images/envase-productos/centella-asiatica.png",
-  alt: "centella-asiatica",
+ 	src: "/images/envase-productos/capsulas/47-plantas-caps.png",
+  alt: "47-plantas",
 }
 description: La centella asiática es una hierba medicinal que se ha utilizado durante siglos en la medicina tradicional china y ayurvédica.
 draft: false
-category: Nuevo 
+category: capsulas 
 ---
 
 La centella asiática es una hierba medicinal que se ha utilizado durante siglos en la medicina tradicional china y ayurvédica. Sus beneficios para la salud incluyen:

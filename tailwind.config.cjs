@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	daisyui: {
-    themes: ["light"],
-  },
+		daisyui:{
+		themes:["night","corporate"]
+	},
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
+	
 		colors:{
 			"blue-light": "#00B7FF",
 			"green-dark": "#003300",
@@ -13,17 +14,27 @@ module.exports = {
 		}
 		,
 		extend: {
+		fontFamily:{
+			body:["Roboto"],
+			sans: [
+        '"Inter var", sans-serif',
+        {
+          fontFeatureSettings: '"cv11", "ss01"',
+          fontVariationSettings: '"opsz" 32'
+        },
+      ],
+
+		}
+		,	
 			backgroundImage :{
 			"gradient1": "url('/images/mesh-gradient.png')",
 			"gradient2": "url('/images/mesh-gradient-2.png')",
+			"gradient-purple":"linear-gradient(to right top, #1f115a, #1f1156, #1f1153, #1f114f, #1f114c, #25114b, #2a1249, #2f1248, #391349, #431549, #4c174a, #54194a);"
 			}
 		},
 	},
 	plugins: [
 		require('@tailwindcss/typography'),
-	
-		require("daisyui")
-
-
+    require("daisyui")
 ],
 }

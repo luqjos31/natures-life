@@ -1,20 +1,14 @@
 ---
-title: Salud de la próstata con Saw Palmetto Natural
-date: 2023-10-28
-author: José Lúquez
+title: Ginkgo Biloba 
+date: 2023-12-20
+author: José Lúquez 
 image: {
- 	src: "/images/envase-productos/saw-palmetto.png",
-  alt: "saw-palmetto",
+ 	src: "/images/envase-productos/capsulas/ginkgo-biloba-caps.png",
+  alt: "ginkgo-biloba",
 }
-description: Saw Palmetto es la solución natural para mantener la salud de la próstata
+description: El Ginkgo Biloba es conocido por su capacidad para mejorar la función cerebral y la memoria. 
 draft: false
-category: Nuevo
+category: capsulas
 ---
+El Ginkgo Biloba es conocido por su capacidad para mejorar la función cerebral y la memoria. Estas cápsulas contienen extracto de la hoja de Ginkgo, aumentando la circulación sanguínea en tu cerebro y mejorando la concentración y la memoria. Elige este suplemento natural en lugar de productos farmacéuticos que a menudo vienen con efectos secundarios y riesgos para la salud.
 
-Saw palmetto es un árbol medicinal que se ha utilizado durante siglos en la medicina tradicional nativa americana para tratar los problemas de la próstata. Sus beneficios para la salud incluyen:
-
-Reducción de la inflamación: Saw palmetto ayuda a reducir la inflamación de la próstata, lo que puede aliviar los síntomas como la micción frecuente, el dolor al orinar y la dificultad para orinar.
-Mejora de la salud sexual: Saw palmetto ayuda a mejorar la función sexual en los hombres.
-Por qué ingerirla en vez de usar productos farmacéuticos:
-
-Saw palmetto es un suplemento natural que es seguro y eficaz para la mayoría de los hombres. No tiene los mismos efectos secundarios que los medicamentos farmacéutico

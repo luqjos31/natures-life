@@ -1,19 +1,21 @@
 ---
-title: La Lochita alta en energía y vitalidad  
-date: 2023-10-28
-author: José Lúquez
+title: Centella Asiática  
+date: 2023-12-29
+author: José Lúquez 
 image: {
- 	src: "/images/envase-productos/lochita.png",
-  alt: "lochita",
+ 	src: "/images/envase-productos/capsulas/centella-asiatica-caps.png",
+  alt: "centella-asiatica",
 }
-description: Lochita es tu tónico natural que impulsa tu energía y vitalidad
+description: La centella asiática es una hierba medicinal que se ha utilizado durante siglos en la medicina tradicional china y ayurvédica.
 draft: false
-category: Nuevo
+category: capsulas 
 ---
-Lochita es una planta medicinal que se ha utilizado durante siglos en la medicina tradicional mexicana para tratar los problemas de la próstata. Sus beneficios para la salud incluyen:
 
-Alivio de los problemas de la próstata: Lochita ayuda a reducir la inflamación de la próstata, lo que puede aliviar los síntomas como la micción frecuente, el dolor al orinar y la dificultad para orinar.
-Mejora de la salud sexual: Lochita ayuda a mejorar la función sexual en los hombres.
+La centella asiática es una hierba medicinal que se ha utilizado durante siglos en la medicina tradicional china y ayurvédica. Sus beneficios para la salud incluyen:
+
+Curación de heridas: La centella asiática contiene compuestos que promueven la cicatrización de heridas y la regeneración de la piel.
+Mejora de la circulación: La centella asiática ayuda a mejorar la circulación sanguínea, lo que puede ayudar a reducir la hinchazón y el dolor.
+Combate la celulitis: La centella asiática ayuda a reducir la apariencia de la celulitis al aumentar la producción de colágeno y elastina.
 Por qué ingerirla en vez de usar productos farmacéuticos:
 
-Lochita es un suplemento natural que es seguro y eficaz para la mayoría de los hombres. No tiene los mismos efectos secundarios que los medicamentos farmacéuticos para la próstata, como la impotencia, la disminución de la libido y la infertilidad.
+La centella asiática es un suplemento natural que es seguro y eficaz para la mayoría de las personas. No tiene los mismos efectos secundarios que los medicamentos farmacéuticos, como la hinchazón, las náuseas y los vómitos.

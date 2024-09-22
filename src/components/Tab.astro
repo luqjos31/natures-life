@@ -1,0 +1,136 @@
+---
+//utils
+import { slugify, formatDate } from "../js/utils";
+// components importear
+import Link from "./Link.astro";
+//const { frontmatter, tagType } = Astro.props;
+//const Tag = tagType;
+//const { title, date, author, image, image2, description, category } =
+//  frontmatter.data;
+---
+
+<div
+  class="tab-section mt-10 mb-4 border-b border-gray-200 dark:border-gray-700 grid place-items-center"
+>
+  <ul
+    class="flex flex-wrap -mb-px text-sm font-medium text-center"
+    id="default-tab"
+    data-tabs-toggle="#default-tab-content"
+    role="tablist"
+  >
+    <li class="me-2" role="presentation">
+      <button
+        class="inline-block p-4 border-b-2 rounded-t-lg hover:text-blue-light"
+        id="profile-tab"
+        data-tabs-target="#capsulas"
+        type="button"
+        role="tab"
+        aria-controls="capsulas"
+        aria-selected="true">Cápsulas</button
+      >
+    </li>
+    <li class="me-2" role="presentation">
+      <button
+        class="inline-block p-4 border-b-2 rounded-t-lg hover:text-blue-light"
+        id="dashboard-tab"
+        data-tabs-target="#depurativos"
+        type="button"
+        role="tab"
+        aria-controls="depurativos"
+        aria-selected="false">Depurativos</button
+      >
+    </li>
+    <li class="me-2" role="presentation">
+      <button
+        class="inline-block p-4 border-b-2 rounded-t-lg hover:text-blue-light"
+        id="settings-tab"
+        data-tabs-target="#jarabes"
+        type="button"
+        role="tab"
+        aria-controls="jarabes"
+        aria-selected="false">Jarabes</button
+      >
+    </li>
+  </ul>
+</div>
+
+<div id="default-tab-content">
+  <div
+    class="hidden tab-content p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
+    id="capsulas"
+    role="tabpanel"
+    aria-labelledby="profile-tab"
+  >
+    <p class="text-sm text-gray-500 dark:text-gray-400">
+      This is some placeholder content the <strong
+        class="font-medium text-gray-800 dark:text-white"
+        >Capsulas tab's associated content</strong
+      >. Clicking another tab will toggle the visibility of this one for the
+      next. The tab JavaScript swaps classes to control the content visibility
+      and styling.
+    </p>
+  </div>
+  <div
+    class="hidden tab-content p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
+    id="depurativos"
+    role="tabpanel"
+    aria-labelledby="profile-tab"
+  >
+    <p class="text-sm text-gray-500 dark:text-gray-400 text-neutral-50">
+      This is some placeholder content the <strong
+        class="font-medium text-gray-800 dark:text-white"
+        >Depurativos tab's associated content</strong
+      >. Clicking another tab will toggle the visibility of this one for the
+      next. The tab JavaScript swaps classes to control the content visibility
+      and styling.
+    </p>
+  </div>
+  <div
+    class="hidden tab-content p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
+    id="jarabes"
+    role="tabpanel"
+    aria-labelledby="profile-tab"
+  >
+    <p class="text-sm text-gray-500 dark:text-gray-400 text-neutral-50">
+      This is some placeholder content the <strong
+        class="font-medium text-gray-800 dark:text-white"
+        >Jarabes tab's associated content</strong
+      >. Clicking another tab will toggle the visibility of this one for the
+      next. The tab JavaScript swaps classes to control the content visibility
+      and styling.
+    </p>
+  </div>
+</div>
+
+<script>
+  const tabs = document.querySelectorAll("[data-tabs-target]");
+  const activeClass = "bg-primary";
+
+  console.log("Tabs test", tabs);
+  //Select the first tab as default
+  tabs[0].classList.add(activeClass);
+  document.querySelector("#capsulas")?.classList.remove("hidden");
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const targetContent = document.querySelector(
+        tab.getAttribute("data-tabs-target") as string
+      );
+
+      console.log("contenido-target", targetContent);
+
+      //Add hidden class
+      document
+        .querySelectorAll(".tab-content")
+        .forEach((content) => content.classList.add("hidden"));
+
+      targetContent?.classList.remove("hidden");
+
+      document
+        .querySelectorAll(".bg-purple-light")
+        .forEach((activeTab) => activeTab.classList.remove(activeClass));
+
+      tab.classList.add(activeClass);
+    });
+  });
+</script>
