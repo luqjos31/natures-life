@@ -7,6 +7,19 @@ import Link from "./Link.astro";
 //const Tag = tagType;
 //const { title, date, author, image, image2, description, category } =
 //  frontmatter.data;
+
+import PostCard from "../components/PostCard.astro";
+
+import { formatBlogPosts, formatBlogPostsCollections } from "../js/utils";
+
+import { getCollection } from "astro:content";
+
+const allPosts = await getCollection("blog");
+const formattedPosts = formatBlogPostsCollections(allPosts, {
+  sortByDate: true,
+  filterOutDrafts: false,
+});
+const categories = "capsulas";
 ---
 
 <div
@@ -102,9 +115,15 @@ import Link from "./Link.astro";
   </div>
 </div>
 
+<div
+  class="mt-4 p-8 grid grid-cols-1 gap-4 justify-center items-center md:grid-cols-2 lg:grid-cols-3"
+>
+  {formattedPosts.map((post) => <PostCard frontmatter={post} tagType="h3" />)}
+</div>
+
 <script>
   const tabs = document.querySelectorAll("[data-tabs-target]");
-  const activeClass = "bg-primary";
+  const activeClass = "bg-secondary";
 
   console.log("Tabs test", tabs);
   //Select the first tab as default
@@ -116,6 +135,7 @@ import Link from "./Link.astro";
       const targetContent = document.querySelector(
         tab.getAttribute("data-tabs-target") as string
       );
+      console.log(tab.getAttribute("data-tabs-target"));
 
       console.log("contenido-target", targetContent);
 
@@ -127,7 +147,7 @@ import Link from "./Link.astro";
       targetContent?.classList.remove("hidden");
 
       document
-        .querySelectorAll(".bg-purple-light")
+        .querySelectorAll(".bg-secondary")
         .forEach((activeTab) => activeTab.classList.remove(activeClass));
 
       tab.classList.add(activeClass);

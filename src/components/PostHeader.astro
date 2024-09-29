@@ -1,8 +1,9 @@
 ---
 //utils
 import { slugify, formatDate } from "../js/utils";
+import PostCard from "./PostCard.astro";
 
-const { title, date, category, author, image, image2 } = Astro.props;
+const { category } = Astro.props;
 ---
 
 <header>
@@ -14,13 +15,20 @@ const { title, date, category, author, image, image2 } = Astro.props;
         >{category}</a
       >
     </small>
-    <h1 class="text-4xl font-bold dark:text-white text-center mt-4">{title}</h1>
 
+    <!--
+    <h1 class="text-4xl font-bold dark:text-white text-center mt-4">{title}</h1>
     <p class="text-center">
       by <a href={`/author/${slugify(author)}/`}>{author}</a> - {
         formatDate(date)
       }
     </p>
+ -->
   </div>
+
+  <!--
+
   <img class="mt-4 mx-auto" src={image.src} alt={image.alt} />
+
+ -->
 </header>

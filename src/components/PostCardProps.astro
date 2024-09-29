@@ -1,0 +1,77 @@
+---
+//utils
+import { slugify, formatDate } from "../js/utils";
+// components importear
+import Link from "./Link.astro";
+const { title, date, author, image, image2, description, category } =
+  Astro.props;
+const { slug } = Astro.params;
+---
+
+<!-- <pre>{ JSON.stringify(frontmatter,null,2)}</pre> -->
+<article class="card mt-8">
+  <div
+    class="card card-compact grid grid-flow-row gap-6 sm:grid-cols-1 lg:grid-cols-2 p-0"
+  >
+    <div class="ml-auto mr-auto mt-3">
+      <img
+        transition:name={`img-${slug}`}
+        src={image.src}
+        alt={image.alt}
+        class="object-contain object-center h-40 lg:h-52 md:h-45"
+      />
+    </div>
+
+    <div class="card-body p-8">
+      <h2 class="card-title">{title}</h2>
+      <h3>{category}</h3>
+
+      <div class="flex">
+        <!-- sm -->
+        <div class="rating rating-sm">
+          <input
+            type="radio"
+            name="rating-6"
+            class="mask mask-star-2 bg-warning"
+            checked="checked"
+          />
+          <input
+            type="radio"
+            name="rating-6"
+            class="mask mask-star-2 bg-warning"
+            checked="checked"
+          />
+          <input
+            type="radio"
+            name="rating-6"
+            class="mask mask-star-2 bg-warning"
+            checked="checked"
+          />
+          <input
+            type="radio"
+            name="rating-6"
+            class="mask mask-star-2 bg-warning"
+            checked="checked"
+          />
+          <input
+            type="radio"
+            name="rating-6"
+            class="mask mask-star-2 bg-warning"
+            checked="checked"
+          />
+        </div>
+
+        <p class="ml-5 mb-0 text-sm font-medium text-secondary">
+          4.99 out of 5
+        </p>
+      </div>
+
+      <!-- <small>
+        by <a href={`/author/${slugify(author)}/`}>{author}</a> - {
+          formatDate(date.toDateString())
+        }
+      </small> -->
+      <!--  <p class="my-4">{description}</p>-->
+    </div>
+  </div>
+</article>

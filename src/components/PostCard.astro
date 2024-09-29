@@ -7,29 +7,16 @@ const { frontmatter, tagType } = Astro.props;
 const Tag = tagType;
 const { title, date, author, image, image2, description, category } =
   frontmatter.data;
+
+const { slug } = Astro.params;
 ---
 
 <!-- <pre>{ JSON.stringify(frontmatter,null,2)}</pre> -->
 <article class="card mt-8">
-  <!-- <div class="max-w-sm w-full lg:max-w-full lg:flex"
-       <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/img/card-left.jpg')" title="Woman holding a mug">
-    </div>
-  -->
+  <div class="card card-compact flex flex-row lg:flex-col shadow-xl p-0">
+    <!--
 
-  <!--  <div class="ml-4 flex flex-1 flex-col">
-    <div>
-      <div class="flex justify-between text-base font-medium text-gray-900">
-        <h3>
-          <a href="#">Throwback Hip Bag</a>
-        </h3>
-        <p class="ml-4">$90.00</p>
-      </div>
-      <p class="mt-1 text-sm text-gray-500">Salmon</p>
-    </div>
-  -->
-  <div
-    class="card card-compact flex flex-row sm:flex-row md:flex-row lg:flex-col bg-base-100 shadow-xl p-0"
-  >
+
     <small class="bg-blue-700 rounded">
       <a
         href={`/category/${slugify(category)}/`}
@@ -38,9 +25,13 @@ const { title, date, author, image, image2, description, category } =
       >
     </small>
 
-    <div class="ml-auto mr-auto mt-3">
+   -->
+    <div
+      class="ml-auto mr-auto mt-3 flex-shrink-0 p-4 transition hover:scale-110"
+    >
       <a href={`/blog/${frontmatter.slug}`} aria-hidden="true" tabindex="-1">
         <img
+          transition:name={`img-${slug}`}
           src={image.src}
           alt={image.alt}
           class="object-contain object-center h-40 lg:h-52 md:h-28"
@@ -48,14 +39,14 @@ const { title, date, author, image, image2, description, category } =
       </a>
     </div>
 
-    <div class="card-body p-8">
+    <div class="card-body p-8 flex-grow-1">
       <h2 class="card-title">
         <a
           href={`/blog/${frontmatter.slug}`}
           class="hover:text-primary font-bold text-center">{title}</a
         >
       </h2>
-      <h3>{category}</h3>
+      <h3>{description}</h3>
 
       <div class="flex items-center">
         <!-- sm -->
@@ -64,6 +55,7 @@ const { title, date, author, image, image2, description, category } =
             type="radio"
             name="rating-6"
             class="mask mask-star-2 bg-warning"
+            checked="checked"
           />
           <input
             type="radio"
@@ -75,23 +67,26 @@ const { title, date, author, image, image2, description, category } =
             type="radio"
             name="rating-6"
             class="mask mask-star-2 bg-warning"
+            checked="checked"
           />
           <input
             type="radio"
             name="rating-6"
             class="mask mask-star-2 bg-warning"
+            checked="checked"
           />
           <input
             type="radio"
             name="rating-6"
             class="mask mask-star-2 bg-warning"
+            checked="checked"
           />
         </div>
 
         <p
           class="ml-5 ms-1 text-sm font-medium text-gray-500 dark:text-gray-400"
         >
-          4.99 out of 5
+          4.99
         </p>
       </div>
 

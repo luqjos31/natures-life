@@ -12,10 +12,11 @@ const { relatedPosts } = Astro.props;
           {post.data.title}
         </a>
       </h3>
-      <small>
-        <a href={`/author/${slugify(post.data.author)}/`}>{post.data.author}</a>{" "}
-        - {formatDate(post.data.date)}
-      </small>
+      <small>{post.data.description}</small>
     </div>
   ))
 }
+<!--
+        <a href={`/author/${slugify(post.data.author)}/`}>{post.data.author}</a>{" "}
+        - {formatDate(post.data.date)}
+   -->

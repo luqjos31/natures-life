@@ -11,6 +11,7 @@ module.exports = {
 			"green-dark": "#003300",
 			"purple-light": "#5D7A98",
 			"white-light": "#D6F4FF",
+			"purple-nature": "#610C9F"
 		}
 		,
 		extend: {
@@ -29,7 +30,9 @@ module.exports = {
 			backgroundImage :{
 			"gradient1": "url('/images/mesh-gradient.png')",
 			"gradient2": "url('/images/mesh-gradient-2.png')",
-			"gradient-purple":"linear-gradient(to right top, #1f115a, #1f1156, #1f1153, #1f114f, #1f114c, #25114b, #2a1249, #2f1248, #391349, #431549, #4c174a, #54194a);"
+			"gradient-purple":"linear-gradient(to right top, #1f115a, #1f1156, #1f1153, #1f114f, #1f114c, #25114b, #2a1249, #2f1248, #391349, #431549, #4c174a, #54194a);",
+			"leaf-image": "url('/images/hojas-verdes-purpuras.jpg')",
+			"leaf-image-opacity": "url('/images/hojas-verdes-purpuras-opacity-2.jpg')",
 			}
 		},
 	},

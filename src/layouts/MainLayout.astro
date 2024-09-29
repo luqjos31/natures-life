@@ -10,11 +10,13 @@ const {
 import MainHead from "./MainHead.astro";
 import Footer from "../components/Footer.astro";
 import Nav from "../components/Nav.astro";
+import ViewTransitions from "astro/components/ViewTransitions.astro";
 ---
 
-<html lang="en" data-theme="night">
+<html lang="en" data-theme="corporate">
   <MainHead {title} {description} {image} {frontmatter} {robots} />
-  <body class="font-body">
+  <ViewTransitions />
+  <body class="font-body bg-leaf-image-opacity bg-cover bg-center">
     <Nav />
     <main>
       <slot />

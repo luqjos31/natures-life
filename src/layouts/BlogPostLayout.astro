@@ -6,6 +6,8 @@ import RelatedPosts from "../components/RelatedPosts.astro";
 // util imports
 import { formatBlogPostsCollections } from "../js/utils";
 import { getCollection } from "astro:content";
+import PostCard from "../components/PostCard.astro";
+import PostCardProps from "../components/PostCardProps.astro";
 
 const allPosts = await getCollection("blog");
 const formattedPosts = formatBlogPostsCollections(allPosts, {
@@ -14,8 +16,7 @@ const formattedPosts = formatBlogPostsCollections(allPosts, {
 
 const { frontmatter, url } = Astro.props;
 
-const { title, description, date, category, image, image2, author } =
-  frontmatter;
+const { title, description, date, category, image, author } = frontmatter;
 
 const relatedPosts = formattedPosts.filter(
   (post) =>
@@ -31,16 +32,12 @@ const relatedPosts = formattedPosts.filter(
   {frontmatter}
   robots={frontmatter.robots}
 >
-  <PostHeader
-    {title}
-    {description}
-    {date}
-    {category}
-    {image}
-    {image2}
-    {author}
-  />
+  <!--
+  <PostHeader {category} tagType="h3" />
+ -->
 
+  <CategoryCloud />
+  <PostCardProps {title} {date} {author} {image} {description} {category} />
   <div class="mx-auto">
     <div class="mt-4 p-8 grid grid-cols-1 gap-6 md:grid-cols-3">
       <div class="mt-4 w-full col-span-2">
@@ -49,16 +46,14 @@ const relatedPosts = formattedPosts.filter(
 
       <div class="sidebar w-full">
         <aside class="container" aria-label="Blog Categories">
-          <h2 class="text-3xl font-bold dark:text-white-light mt-4">
-            Categorías
-          </h2>
+          <h2 class="text-3xl font-bold mt-4">Categorías</h2>
           <CategoryCloud />
         </aside>
         {
           relatedPosts.length > 0 && (
             <aside class="container" aria-label="Related posts">
-              <h2 class="text-3xl font-bold dark:text-white-light mt-4 ml-6">
-                Related Posts
+              <h2 class="text-3xl font-bold mt-4 ml-6">
+                Productos relacionados
               </h2>
               <RelatedPosts {relatedPosts} />
             </aside>

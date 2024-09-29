@@ -34,6 +34,7 @@ const { category } = Astro.params;
 const { name } = Astro.props;
 
 import { getCollection } from "astro:content";
+import CategoryCloud from "../../components/CategoryCloud.astro";
 
 // const allPosts = await Astro.glob("./blog/*.md");
 
@@ -49,13 +50,20 @@ const catPost = formattedPosts.filter(
 ---
 
 <MainLayout title={name}>
+  <CategoryCloud />
   <section class="" aria-label={`Posts about ${name}`}>
     <h1 class="ml-14 mt-4 text-5xl font-extrabold dark:text-white">
-      Post about <span>{name}</span>
+      <span>{category}</span>
     </h1>
 
     <div class="mt-4 p-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       {catPost.map((post) => <PostCard frontmatter={post} tagType="h2" />)}
     </div>
   </section>
+
+  <style>
+    span {
+      text-transform: capitalize;
+    }
+  </style>
 </MainLayout>

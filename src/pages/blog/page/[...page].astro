@@ -4,6 +4,11 @@ import PostCard from "../../../components/PostCard.astro";
 import { formatBlogPostsCollections } from "../../../js/utils";
 import { getCollection } from "astro:content";
 import Pagination from "../../../components/Pagination.astro";
+import type {
+  GetStaticPaths,
+  InferGetStaticParamsType,
+  InferGetStaticPropsType,
+} from "astro";
 
 const pageTitle = "My Astro Learning Blog";
 
@@ -12,13 +17,12 @@ export async function getStaticPaths({ paginate }) {
   const formattedPosts = formatBlogPostsCollections(allPosts, {
     sortByDate: true,
     filterOutDrafts: false,
-  });
+  }) satisfies GetStaticPaths;
 
   return paginate(formattedPosts, {
     pageSize: 3,
   });
 }
-
 const { page } = Astro.props;
 ---
 

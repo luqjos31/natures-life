@@ -3,6 +3,8 @@ const navData = [
     name: "Acerca",
     path: "/about/",
   },
-  { name: "Blog", path: "/blog/page/" },
+  { name: "Productos", path: "/category/capsulas" },
+
+  { name: "Contacto", path: "/contact/" },
 ];
 export default navData;
