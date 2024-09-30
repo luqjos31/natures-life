@@ -20,3 +20,6 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 \n.astro
+
+# Local Netlify folder
+.netlify
