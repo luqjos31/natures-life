@@ -13,8 +13,6 @@ const allCategories = formattedPosts
   .map((cat) => cat.data.category.toLowerCase())
   .flat();
 
-console.log(allCategories);
-
 const processedCats = allCategories.reduce((acc, category) => {
   // check if category exists in the acc
 
