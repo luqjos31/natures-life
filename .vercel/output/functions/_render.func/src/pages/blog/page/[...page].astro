@@ -1,0 +1,52 @@
+---
+import MainLayout from "../../../layouts/MainLayout.astro";
+import PostCard from "../../../components/PostCard.astro";
+import { formatBlogPostsCollections } from "../../../js/utils";
+import { getCollection } from "astro:content";
+import Pagination from "../../../components/Pagination.astro";
+import type {
+  GetStaticPaths,
+  InferGetStaticParamsType,
+  InferGetStaticPropsType,
+} from "astro";
+
+const pageTitle = "My Astro Learning Blog";
+
+export async function getStaticPaths({ paginate }) {
+  const allPosts = await getCollection("blog");
+  const formattedPosts = formatBlogPostsCollections(allPosts, {
+    sortByDate: true,
+    filterOutDrafts: false,
+  }) satisfies GetStaticPaths;
+
+  return paginate(formattedPosts, {
+    pageSize: 3,
+  });
+}
+const { page } = Astro.props;
+---
+
+<MainLayout>
+  <section class="" aria-label="New Blog Posts">
+    <h2 class="text-center mt-4 pt-8 text-5xl font-extrabold dark:text-white">
+      New Blog Posts
+    </h2>
+
+    <div class="mt-4 p-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+      {
+        page.data.map((post) => (
+          <>
+            <PostCard frontmatter={post} tagType="h3" />
+          </>
+        ))
+      }
+    </div>
+    <Pagination nextUrl={page.url.next} prevUrl={page.url.prev} />
+    <!-- <h1>Page {page.currentPage}</h1>
+    <ul>
+      {page.data.map(({ title }) => <li>title</li>)}
+    </ul>
+    {page.url.prev ? <a href={page.url.prev}>Previous</a> : null}
+    {page.url.next ? <a href={page.url.next}>Next</a> : null} -->
+  </section>
+</MainLayout>
