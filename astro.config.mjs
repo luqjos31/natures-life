@@ -8,8 +8,8 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-  // site: 'https://astro-blog-cip.netlify.app',
- // integrations: [sitemap(), tailwind()],
+  site: 'https://natures-life-store.netlify.app',
+  integrations: [sitemap(), tailwind()],
   output: "server",
   adapter: netlify(),
 });

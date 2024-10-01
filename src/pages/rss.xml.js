@@ -13,8 +13,8 @@ const formattedPosts = formatBlogPostsCollections(allPosts, {
    return rss({
       // ex. use your stylesheet from "public/rss/styles.xsl"
      stylesheet: '/rss/styles.xsl',
-     title: 'Astro blog',
-     description: 'A humble Astronaut’s guide to the stars',
+     title: 'Natures Life',
+     description: 'Productos naturales al siguiente nivel',
      site: context.site,
      items: formattedPosts.map((post) => ({
        title: post.data.title,
