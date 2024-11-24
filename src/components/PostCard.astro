@@ -12,7 +12,7 @@ const { slug } = Astro.params;
 ---
 
 <!-- <pre>{ JSON.stringify(frontmatter,null,2)}</pre> -->
-<article class="card mt-8 bg-purple-dark">
+<article class="card mt-8  bg-purple-dark">
   <div class="card card-compact flex flex-row lg:flex-col shadow-xl p-0">
     <!--
 
@@ -111,3 +111,10 @@ const { slug } = Astro.params;
       <img class="mt-2" src={image.src} alt={image.alt} width="200" />
     </a> -->
 </article>
+<style>
+.purple-card-background{
+
+background-image: linear-gradient(to right top, #32012f, #2b0321, #220216, #17010b, #000000);
+
+}
+</style>
