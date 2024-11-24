@@ -12,6 +12,7 @@ h2 {
 }
 
 p {
+  color:white;
   margin-bottom: 1rem !important;
 }
 
@@ -23,3 +24,5 @@ ul {
 .h2 {
   @apply ml-14 mt-4 text-4xl font-extrabold;
 }
+
+

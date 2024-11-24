@@ -15,7 +15,7 @@
     "@astrojs/sitemap": "^3.1.6",
     "@astrojs/tailwind": "^5.1.1",
     "@astrojs/vercel": "^7.8.1",
-    "astro": "^4.15.9",
+    "astro": "^4.16.14",
     "astro-icon": "^0.8.1",
     "mime": "^4.0.4",
     "path-to-regexp": "^8.2.0",
@@ -28,5 +28,10 @@
     "daisyui": "^3.9.2",
     "prettier": "^3.0.3",
     "prettier-plugin-astro": "^0.12.0"
-  }
+  },
+  "description": "``` npm create astro@latest -- --template minimal ```",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
