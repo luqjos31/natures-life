@@ -20,7 +20,7 @@ const processedCats = allCategories.reduce((acc, category) => {
   return { ...acc, [category]: value + 1 };
 }, {});
 
-// console.log(processedCats);
+ console.log(processedCats);
 
 const { showCount } = Astro.props;
 ---
@@ -33,7 +33,7 @@ const { showCount } = Astro.props;
           class="hover:text-primary focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-base px-5 py-2.5 mr-2 mb-2 mt-2 focus:outline-none dark:focus:ring-blue-800"
           href={`/category/${slugify(key)}/`}
         >
-          {key} {showCount && `(${val})`}
+          {key.toLowerCase() === "capsulas" ? "cápsulas":key} {showCount && `(${val})`}  
         </a>
       </li>
     ))
@@ -42,6 +42,6 @@ const { showCount } = Astro.props;
 
 <style>
   a {
-    text-transform: capitalize;
+    text-transform:capitalize;
   }
 </style>

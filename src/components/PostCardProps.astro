@@ -18,13 +18,13 @@ const { slug } = Astro.params;
         transition:name={`img-${slug}`}
         src={image.src}
         alt={image.alt}
-        class="object-contain object-center h-40 lg:h-52 md:h-45"
+        class="object-contain object-center h-80 lg:h-104 md:h-90"
       />
     </div>
 
     <div class="card-body p-8">
       <h2 class="card-title">{title}</h2>
-      <h3>{category}</h3>
+      <h3>{category.toLowerCase() === "capsulas" ? "Cápsulas" : category}</h3>
 
       <div class="flex">
         <!-- sm -->

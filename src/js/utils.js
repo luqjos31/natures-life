@@ -9,6 +9,15 @@ export function slugify(text) {
     .replace(/-+$/, "");
 }
 
+
+export function stress(text) {
+  return "palabra"
+  // return text
+
+    // .toString()
+    // .toUpperCase()
+}
+
 export function formatDate(date) {
   return new Date(date).toLocaleDateString("en-US", { timeZone: "UTC" });
 }

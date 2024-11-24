@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 		daisyui:{
-		themes:["synthwave"]
+		themes:["corporate"]
 	},
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 	
 		colors:{
+			"green-light":"#C6EBC5",
 			"blue-light": "#00B7FF",
 			"green-dark": "#003300",
 			"purple-light": "#7A1CAC",

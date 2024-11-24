@@ -53,7 +53,8 @@ const catPost = formattedPosts.filter(
   <CategoryCloud />
   <section class="" aria-label={`Posts about ${name}`}>
     <h1 class="ml-14 mt-4 text-5xl font-extrabold dark:text-white">
-      <span>{category}</span>
+      
+      <span>{category === "capsulas" ? "cápsulas":category}</span>
     </h1>
 
     <div class="mt-4 p-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
