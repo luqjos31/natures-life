@@ -3,7 +3,7 @@ title: Hemorroids
 date: 2023-12-19
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/hemorroids-caps.png",
+ 	src: "/images/envase-productos/capsulas/hemorroids-caps.webp",
   alt: "hemorroids-capsulas",
 }
 description: Alivio eficaz para los síntomas incómodos con las hemorroides

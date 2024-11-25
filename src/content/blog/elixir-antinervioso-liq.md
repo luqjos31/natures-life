@@ -3,7 +3,7 @@ title: Elixir Antinervioso
 date: 2023-12-05
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/antinervioso-liq.png",
+ 	src: "/images/envase-productos/depurativos/antinervioso-liq.webp",
   alt: "elixir-antinervioso-liquido",
 }
 description: Promueve la salud cardiovascular y ayuda a la inducción del sueño

@@ -3,7 +3,7 @@ title: Lochita
 date: 2023-12-17
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/lochita-caps.png",
+ 	src: "/images/envase-productos/capsulas/lochita-caps.webp",
   alt: "lochita-capsulas",
 }
 description: Oxigena tu cerebro, potencia tus capacidades, aumenta flujo saguíneo cerebral

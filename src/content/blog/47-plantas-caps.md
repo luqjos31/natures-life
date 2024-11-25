@@ -3,7 +3,8 @@ title: 47 Plantas
 date: 2023-12-31
 author: José Lúquez 
 image: {
- 	src: "/images/envase-productos/capsulas/47-plantas-caps.png",
+ 	src: "/images/envase-productos/capsulas/47-plantas-caps.webp",
+
   alt: "47-plantas-capsulas",
 }
 description: Promueve la salud del hígado, vesícula biliar y depurar la sangre de toxinas

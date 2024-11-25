@@ -3,7 +3,7 @@ title: Colágeno
 date: 2023-12-27
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/colageno-caps.png",
+ 	src: "/images/envase-productos/capsulas/colageno-caps.webp",
   alt: "colageno-capsulas",
 }
 description: La proteína natural de nuestra piel, huesos, tendones, ligamento y cartílagos

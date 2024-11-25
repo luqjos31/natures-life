@@ -3,7 +3,7 @@ title: Elixir Ginecológico
 date: 2023-12-04
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/ginecologico-liq.png",
+ 	src: "/images/envase-productos/depurativos/ginecologico-liq.webp",
   alt: "elixir-ginecologico-liquido",
 }
 description: Equilibrio y bienestar para el sistema reproductor femenino

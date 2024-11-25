@@ -3,7 +3,7 @@ title: Totumo
 date: 2023-11-28
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/totumo-liq.png",
+ 	src: "/images/envase-productos/depurativos/totumo-liq.webp",
   alt: "totumo-liquido",
 }
 description: Contienen compuestos bioactivos que le confieren una amplia gama de beneficios para la salud, incluyendo el tratamiento de tumores, quistes

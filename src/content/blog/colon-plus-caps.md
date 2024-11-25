@@ -3,7 +3,7 @@ title: Colon Plus
 date: 2023-12-26
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/colon-plus-caps.png",
+ 	src: "/images/envase-productos/capsulas/colon-plus-caps.webp",
   alt: "colon-plus-capsulas",
 }
 description: Limpieza profunda y bienestar intestinal mediante la adición de fibras y hierbas seleccionadas 

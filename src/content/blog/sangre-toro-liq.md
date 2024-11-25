@@ -3,7 +3,7 @@ title: Sangre de Toro
 date: 2023-11-30
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/sangre-toro-liq.png",
+ 	src: "/images/envase-productos/depurativos/sangre-toro-liq.webp",
   alt: "sangre-toro-liquido",
 }
 description: Revitaliza tu organismo y recupera la vitalidad, formulado con K,H,3

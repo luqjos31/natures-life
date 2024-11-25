@@ -3,7 +3,7 @@ title: Chancapiedra
 date: 2023-12-28
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/chancapiedra-caps.png",
+ 	src: "/images/envase-productos/capsulas/chancapiedra-caps.webp",
   alt: "name-salvaje-capsulas",
 }
 description: Tu aliado natural para la salud renal y hepática

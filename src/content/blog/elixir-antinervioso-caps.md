@@ -3,7 +3,7 @@ title: Elixir Antinervioso
 date: 2023-12-22
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/antinervioso-caps.png",
+ 	src: "/images/envase-productos/capsulas/antinervioso-caps.webp",
   alt: "elixir-antinervioso-capsulas",
 }
 description: Promueve la salud cardiovascular y ayuda a la inducción del sueño

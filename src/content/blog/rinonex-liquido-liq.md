@@ -3,7 +3,7 @@ title: Riñonex
 date: 2023-12-01
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/rinonex-liq.png",
+ 	src: "/images/envase-productos/depurativos/rinonex-liq.webp",
   alt: "riñonex-liquido",
 }
 description: Reconocido por sus propiedades diuréticas y depurativas, ayudando a mantener los riñones saludables y a eliminar toxinas del organismo

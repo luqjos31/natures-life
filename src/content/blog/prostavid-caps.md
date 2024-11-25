@@ -3,7 +3,7 @@ title: Prostavid
 date: 2023-12-13
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/prostavid-caps.png",
+ 	src: "/images/envase-productos/capsulas/prostavid-caps.webp",
   alt: "prostavid-caps",
 }
 description: Solución natural para mantener la salud de la próstata

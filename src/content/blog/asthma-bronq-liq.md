@@ -3,7 +3,7 @@ title: Asthma Bronq
 date: 2023-11-25
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/jarabes/asthma-bronq-liq.png",
+ 	src: "/images/envase-productos/jarabes/asthma-bronq-liq.webp",
   alt: "asthma-bronq-liquido",
 }
 description: Suplemento nutricional diseñado para ayudar a aliviar los síntomas del asma y la bronquitis

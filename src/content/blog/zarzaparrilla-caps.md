@@ -3,7 +3,7 @@ title: Zarzaparrilla
 date: 2023-12-09
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/zarzaparrilla-caps.png",
+ 	src: "/images/envase-productos/capsulas/zarzaparrilla-caps.webp",
   alt: "zarzaparrilla-caps",
 }
 description: Con propiedades depurativas, ayudando a eliminar toxinas del organismo y promoviendo la limpieza de la sangre

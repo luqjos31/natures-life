@@ -3,7 +3,7 @@ title: Siempre Joven
 date: 2023-11-29
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/siempre-joven-liq.png",
+ 	src: "/images/envase-productos/depurativos/siempre-joven-liq.webp",
   alt: "siempre-joven-liquido",
 }
 description: La fórmula secreta para una juventud prolongada promoviendo la salud celular

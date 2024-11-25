@@ -3,7 +3,7 @@ title: Colon Saludable
 date: 2023-12-06
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/colon-saludable-liq.png",
+ 	src: "/images/envase-productos/depurativos/colon-saludable-liq.webp",
   alt: "colon-saludable-liq",
 }
 description:  Promueve la salud del colon y mejorar la función digestiva

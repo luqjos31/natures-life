@@ -3,7 +3,7 @@ title: Palo de Arco
 date: 2023-12-15
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/palo-arco-caps.png",
+ 	src: "/images/envase-productos/capsulas/palo-arco-caps.webp",
   alt: "palo-de-arco-capsulas",
 }
 description: Una opción natural para el manejo de la diabetes, ademas de ser antioxidante y antiflamatorio

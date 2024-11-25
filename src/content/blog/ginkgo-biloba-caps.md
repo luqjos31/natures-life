@@ -3,7 +3,7 @@ title: Ginkgo Biloba
 date: 2023-12-20
 author: José Lúquez 
 image: {
- 	src: "/images/envase-productos/capsulas/ginkgo-biloba-caps.png",
+ 	src: "/images/envase-productos/capsulas/ginkgo-biloba-caps.webp",
   alt: "ginkgo-biloba-capsulas",
 }
 description: El Ginkgo Biloba es conocido por su capacidad para mejorar la función cerebral y la memoria 

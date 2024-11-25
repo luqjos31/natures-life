@@ -3,7 +3,7 @@ title: Saw Palmetto
 date: 2023-12-12
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/saw-palmetto-caps.png",
+ 	src: "/images/envase-productos/capsulas/saw-palmetto-caps.webp",
   alt: "saw-palmetto-caps",
 }
 description: Saw Palmetto es la solución natural para mantener la salud de la próstata

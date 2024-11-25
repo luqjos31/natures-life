@@ -3,7 +3,7 @@ title: Pierda Barriga
 date: 2023-12-14
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/pierda-barriga-caps.png",
+ 	src: "/images/envase-productos/capsulas/pierda-barriga-caps.webp",
   alt: "pierda-barriga-capsulas",
 }
 description: La solución para reducir peso especialmente en la zona abdominal

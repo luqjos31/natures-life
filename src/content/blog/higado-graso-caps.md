@@ -3,7 +3,7 @@ title: Hígado Graso
 date: 2023-12-18
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/higado-graso-caps.png",
+ 	src: "/images/envase-productos/capsulas/higado-graso-caps.webp",
   alt: "higado-graso-capsulas",
 }
 description: Tu aliado para un hígado saludable reduciendo la acumulación de grasa en el hígado

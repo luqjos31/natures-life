@@ -3,7 +3,7 @@ title: 47 plantas
 date: 2023-12-08
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/47-plantas-liq.png",
+ 	src: "/images/envase-productos/depurativos/47-plantas-liq.webp",
   alt: "47-plantas-liquido",
 }
 description: Promueve la salud del hígado, vesícula biliar y depurar la sangre de toxinas

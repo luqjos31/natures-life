@@ -3,7 +3,7 @@ title: Vino Potencial
 date: 2023-12-10
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/vino-potencial-caps.png",
+ 	src: "/images/envase-productos/capsulas/vino-potencial-caps.webp",
   alt: "vino-potencial-caps",
 }
 description: Enriquecido con vitamina B12, proporciona un impulso de energía, aumenta tu apetito y mejora la absorción de nutrientes esenciales

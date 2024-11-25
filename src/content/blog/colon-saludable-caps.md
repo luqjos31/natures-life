@@ -3,7 +3,7 @@ title: Colon Saludable
 date: 2023-12-26
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/colon-saludable-caps.png",
+ 	src: "/images/envase-productos/capsulas/colon-saludable-caps.webp",
   alt: "colon-saludable-capsulas",
 }
 description: Promueve la salud del colon y mejorar la función digestiva

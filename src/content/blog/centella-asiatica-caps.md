@@ -3,7 +3,7 @@ title: Centella Asiática
 date: 2023-12-29
 author: José Lúquez 
 image: {
- 	src: "/images/envase-productos/capsulas/centella-asiatica-caps.png",
+ 	src: "/images/envase-productos/capsulas/centella-asiatica-caps.webp",
   alt: "centella-asiatica-capsulas",
 }
 description: La fuente de la juventud para tu piel

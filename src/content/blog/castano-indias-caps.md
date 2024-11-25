@@ -3,7 +3,7 @@ title: Castaño de Indias
 date: 2023-12-30
 author: José Lúquez 
 image: {
- 	src: "/images/envase-productos/capsulas/castano-indias-caps.png",
+ 	src: "/images/envase-productos/capsulas/castano-indias-caps.webp",
   alt: "castano-de-indias-capsulas",
 }
 description: Alivia la pesadez y mejora la circulación especialmente en las piernas

@@ -3,7 +3,7 @@ title: Escoba de Carnicero
 date: 2023-12-23
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/escoba-carnicero-caps.png",
+ 	src: "/images/envase-productos/capsulas/escoba-carnicero-caps.webp",
   alt: "escoba-de-carnicero-capsulas",
 }
 description:  Sus propiedades venotónicas y antiinflamatorias ayudan a mejorar la salud vascular y aliviar la pesadez en las piernas

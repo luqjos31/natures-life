@@ -3,7 +3,7 @@ title: Berro
 date: 2023-11-24
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/jarabes/berro-liq.png",
+ 	src: "/images/envase-productos/jarabes/berro-liq.webp",
   alt: "berro-liquido",
 }
 description: Relaja los músculos bronquiales, facilita la expectoración

@@ -3,7 +3,7 @@ title: Hígado Graso
 date: 2023-12-03
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/higado-graso-liq.png",
+ 	src: "/images/envase-productos/depurativos/higado-graso-liq.webp",
   alt: "higado-graso-liquido",
 }
 description: Tu aliado para un hígado saludable reduciendo la acumulación de grasa en el hígado

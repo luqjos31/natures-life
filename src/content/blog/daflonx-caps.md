@@ -3,7 +3,7 @@ title: Daflonx
 date: 2023-12-25
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/daflonx-caps.png",
+ 	src: "/images/envase-productos/capsulas/daflonx-caps.webp",
   alt: "daflonx-capsulas",
 }
 description: Tu aliado para mejorar la circulación y el tratamiento de varices

@@ -3,7 +3,7 @@ title: Ñame Salvaje
 date: 2023-12-16
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/name-salvaje-caps.png",
+ 	src: "/images/envase-productos/capsulas/name-salvaje-caps.webp",
   alt: "name-salvaje-capsulas",
 }
 description: Ñame Salvaje es tu respuesta natural para el equilibrio hormonal 

@@ -3,7 +3,7 @@ title: Vino Potencial
 date: 2023-11-27
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/vino-potencial-liq.png",
+ 	src: "/images/envase-productos/depurativos/vino-potencial-liq.webp",
   alt: "vino-potencial-liquido",
 }
 description: Enriquecido con vitamina B12, proporciona un impulso de energía, aumenta el apetito y mejora la absorción de nutrientes esenciales

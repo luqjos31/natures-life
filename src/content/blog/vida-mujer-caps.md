@@ -3,7 +3,7 @@ title: Vida Mujer
 date: 2023-12-11
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/vida-mujer-caps.png",
+ 	src: "/images/envase-productos/capsulas/vida-mujer-caps.webp",
   alt: "vida-mujer-caps",
 }
 description: Tu aliado para un bienestar femenino integral abordando diversos problemas ginecológicos

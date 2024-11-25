@@ -3,7 +3,7 @@ title: Elixir Ginecológico
 date: 2023-12-21
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/ginecologico-caps.png",
+ 	src: "/images/envase-productos/capsulas/ginecologico-caps.webp",
   alt: "elixir-ginecologico-capsulas",
 }
 description: Equilibrio y bienestar para el sistema reproductor femenino

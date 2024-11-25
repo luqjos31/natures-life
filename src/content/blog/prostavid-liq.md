@@ -3,7 +3,7 @@ title: Prostavid
 date: 2023-12-02
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/prostavid-liq.png",
+ 	src: "/images/envase-productos/depurativos/prostavid-liq.webp",
   alt: "prostavid-liquido",
 }
 description: Solución natural para mantener la salud de la próstata

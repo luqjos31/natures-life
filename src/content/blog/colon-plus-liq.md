@@ -3,7 +3,7 @@ title: Colon Plus
 date: 2023-12-07
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/colon-plus-liq.png",
+ 	src: "/images/envase-productos/depurativos/colon-plus-liq.webp",
   alt: "colon-plus-liquido",
 }
 description: Limpieza profunda y bienestar intestinal mediante la adición de fibras y hierbas seleccionadas 

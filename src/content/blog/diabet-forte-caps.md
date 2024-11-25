@@ -3,7 +3,7 @@ title: Diabet Forte
 date: 2023-12-24
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/capsulas/diabet-forte-caps.png",
+ 	src: "/images/envase-productos/capsulas/diabet-forte-caps.webp",
   alt: "diabet-forte-capsulas",
 }
 description: Diabet forte es un suplemento natural que ayuda a controlar la diabetes de forma segura y eficaz. 
