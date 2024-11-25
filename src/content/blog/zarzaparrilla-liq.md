@@ -3,7 +3,7 @@ title: Zarzaparrilla
 date: 2023-11-26
 author: José Lúquez
 image: {
- 	src: "/images/envase-productos/depurativos/zarzaparrilla-liq.png",
+ 	src: "/images/envase-productos/depurativos/zarzaparrilla-liq.webp",
   alt: "zarzaparrilla-liquido",
 }
 description: Con propiedades depurativas, ayudando a eliminar toxinas del organismo y promoviendo la limpieza de la sangre
