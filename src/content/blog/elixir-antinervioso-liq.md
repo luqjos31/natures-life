@@ -9,6 +9,7 @@ image: {
 description: Promueve la salud cardiovascular y ayuda a la inducción del sueño
 draft: false
 category: Depurativos
+message: Mensaje
 ---
 
 Nuestro **Elixir Antinervioso** es una fórmula herbal cuidadosamente diseñada para promover la salud cardiovascular y nervioso. Gracias a su potente combinación de plantas medicinales, este elixir actúa como un eficaz regulador del torrente sanguíneo, eliminando impurezas y ofreciendo múltiples beneficios para tu bienestar.

@@ -9,6 +9,7 @@ image: {
 description: Revitaliza tu organismo y recupera la vitalidad, formulado con K,H,3
 draft: false
 category: Depurativos
+message: Mensaje
 ---
 
 **Sangre de Toro** es un suplemento nutricional especialmente formulado con K,H,3, diseñado para combatir el desgaste físico y mental, devolviéndole al organismo la energía y vitalidad perdidas. Enriquecido con glicerofosfato y vitaminas, este producto ofrece una solución completa para fortalecer el cuerpo y mejorar la calidad de vida.

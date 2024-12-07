@@ -1,0 +1,86 @@
+---
+//utils
+import { slugify, formatDate } from "../js/utils";
+// components importear
+import Link from "./Link.astro";
+const { frontmatter, tagType } = Astro.props;
+const Tag = tagType;
+const { title, date, author, image, image2, description, category, message } =
+  frontmatter.data;
+
+const { slug } = Astro.params;
+---
+
+<!-- <pre>{ JSON.stringify(frontmatter,null,2)}</pre> -->
+<article class="card p-4 bg-gradient-light">
+<div class="h-8 bg-gradient-yellow rounded">
+
+      <small class="bg-warning rounded p-3 uppercase">
+      <a
+        href={`/category/${slugify(category)}/`}
+        class="text-purple-dark hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-2 py-2 mr-2 mb-2 dark:bg-yellow-600 dark:hover:bg-yellow-600 focus:outline-none dark:focus:ring-blue-800 mt-4"
+        >{category}</a
+      >
+    </small>
+
+</div>
+
+  <div class="card card-compact flex flex-row lg:flex-row shadow-sm p-0">
+    <!--
+
+
+    <small class="bg-blue-700 rounded">
+      <a
+        href={`/category/${slugify(category)}/`}
+        class="text-white bg-yellow-600 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-2 py-2 mr-2 mb-2 dark:bg-yellow-600 dark:hover:bg-yellow-600 focus:outline-none dark:focus:ring-blue-800 mt-4"
+        >{category}</a
+      >
+    </small>
+
+   -->
+    <div
+      class="ml-auto mr-auto  mt-3 flex-shrink-0 p-4 transition hover:scale-110"
+    >
+      <a href={`/blog/${frontmatter.slug}`} aria-hidden="true" tabindex="-1">
+        <img
+          transition:name={`img-${slug}`}
+          src={image.src}
+          alt={image.alt}
+          class="object-contain object-center h-40 lg:h-52 md:h-28"
+        />
+      </a>
+    </div>
+
+    <div class="card-body p-8 flex-grow-1">
+      <h2 class="card-title font-normal">
+
+        <a
+          href={`/blog/${frontmatter.slug}`}
+          class="hover:text-primary font-bold text-left">{message}</a
+        >
+      </h2>
+
+
+      </div>
+
+      
+      <!--  <p class="my-4">{description}</p> -->
+    </div>
+  </div>
+
+  <!-- <a href={`/blog/${frontmatter.slug}`} aria-hidden="true" tabindex="-1">
+      <img class="mt-2" src={image.src} alt={image.alt} width="200" />
+    </a> -->
+</article>
+<style>
+
+article div {
+  
+/* content-visibility: auto; */
+}
+
+.purple-card-background{
+  background-image: linear-gradient(to right top, #845ec2, #a086d4, #bdaee4, #ddd6f2, #ffffff);
+/* background-image: linear-gradient(to right top, #32012f, #2b0321, #220216, #17010b, #000000); */
+}
+</style>

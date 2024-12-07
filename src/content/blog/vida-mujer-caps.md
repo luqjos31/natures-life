@@ -9,6 +9,7 @@ image: {
 description: Tu aliado para un bienestar femenino integral abordando diversos problemas ginecológicos
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 **Vida Mujer** es un suplemento nutricional diseñado específicamente para promover la salud femenina y abordar diversos problemas ginecológicos. Formulado con una combinación de ingredientes naturales de alta calidad, este producto ofrece una solución eficaz y segura para mejorar la salud reproductiva y el bienestar general de la mujer.

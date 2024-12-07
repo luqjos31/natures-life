@@ -9,6 +9,7 @@ image: {
 description: La fuente de la juventud para tu piel
 draft: false
 category: Capsulas 
+message: Mensaje
 ---
 
 La **Centella Asiática**, también conocida como gotu kola, es una planta medicinal que ha sido utilizada durante siglos en la medicina tradicional asiática por sus propiedades curativas y rejuvenecedoras. Nuestro suplemento de Centella Asiática te ayudará a lucir una piel radiante y saludable, además de otros beneficios para tu bienestar general.

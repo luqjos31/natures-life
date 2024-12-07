@@ -9,6 +9,7 @@ image: {
 description: Alivia la pesadez y mejora la circulación especialmente en las piernas
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 Nuestro extracto de **Castaño de Indias** es una solución natural y eficaz para combatir los problemas circulatorios, especialmente aquellos relacionados con las piernas. Gracias a sus propiedades venotónicas y antiinflamatorias, este producto te ayudará a sentir tus piernas más ligeras y descansadas.
 

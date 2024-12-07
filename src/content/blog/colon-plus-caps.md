@@ -8,6 +8,7 @@ image: {
 }
 description: Limpieza profunda y bienestar intestinal mediante la adición de fibras y hierbas seleccionadas 
 draft: false
+message: Tu aliado para una digestión saludable, desintoxica y revitaliza. Tenemos promociones que no te la puedes perder!
 category: Capsulas
 ---
 **Colon Plus** con Hierbas Adicionales es un suplemento diseñado para promover una limpieza profunda del colon y optimizar su funcionamiento. Gracias a su fórmula enriquecida con fibras naturales y una selección de hierbas cuidadosamente seleccionadas, este producto te ayudará a mantener un sistema digestivo saludable y a sentirte más ligero y lleno de energía.

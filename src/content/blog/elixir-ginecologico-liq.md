@@ -9,6 +9,7 @@ image: {
 description: Equilibrio y bienestar para el sistema reproductor femenino
 draft: false
 category: Depurativos
+message: Mensaje
 ---
 
 El **Elixir Ginecológico** es un producto natural diseñado para promover el equilibrio y el bienestar del sistema reproductor femenino. Formulado con una combinación de hierbas medicinales y extractos naturales, este elixir busca aliviar diversas molestias y contribuir a una salud íntima óptima.

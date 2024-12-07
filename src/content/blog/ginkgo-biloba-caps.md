@@ -9,6 +9,7 @@ image: {
 description: El Ginkgo Biloba es conocido por su capacidad para mejorar la función cerebral y la memoria 
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 El **Ginkgo Biloba**, conocido como el árbol de los cuarenta escudos, es una planta milenaria que ha sido utilizada durante siglos en la medicina tradicional. Sus hojas contienen compuestos bioactivos que ofrecen numerosos beneficios para la salud, especialmente para el cerebro y el sistema circulatorio.
 

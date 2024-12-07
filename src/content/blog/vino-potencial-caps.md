@@ -9,6 +9,7 @@ image: {
 description: Enriquecido con vitamina B12, proporciona un impulso de energía, aumenta tu apetito y mejora la absorción de nutrientes esenciales
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 

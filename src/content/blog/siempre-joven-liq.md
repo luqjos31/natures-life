@@ -10,6 +10,7 @@ description: La fórmula secreta para una juventud prolongada promoviendo la sal
 draft: false
 
 category: Depurativos
+message: Mensaje
 ---
 
 **Siempre Joven** es un suplemento nutricional diseñado para promover la salud celular y retardar los efectos del envejecimiento. Formulado con una combinación de ingredientes naturales de alta calidad, este producto proporciona los nutrientes esenciales que tu cuerpo necesita para mantener células sanas y funcionales.

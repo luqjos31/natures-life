@@ -3,8 +3,17 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import Link from "../components/Link.astro";
 
+import PostCard from "../components/PostCardStar.astro";
+
+import {
+  slugify,
+  formatBlogPosts,
+  formatBlogPostsCollections,
+} from "../js/utils";
+
+
 import Tab from "../components/Tab.astro";
-import CategoryCloud from "../components/CategoryCloud.astro";
+// import CategoryCloud from "../components/CategoryCloud.astro";
 
 // const allPosts = await Astro.glob("./blog/*.md");
 
@@ -17,25 +26,98 @@ import CategoryCloud from "../components/CategoryCloud.astro";
 //   sortByDate: true,
 //   limit: 7,
 // });
+
+import PostCardStar from "../components/PostCardStar.astro";
+import { getCollection } from "astro:content";
+import CategoryCloud from "../components/CategoryCloud.astro";
+import PostCardProps from "../components/PostCardProps.astro";
+
+// const allPosts = await Astro.glob("./blog/*.md");
+
+const allPosts = await getCollection("blog");
+const formattedPosts = formatBlogPostsCollections(allPosts, {
+  sortByDate: true,
+  filterOutDrafts: false,
+});
+
+// Tener un array de productos destacados
+
+
+
+const catPost = formattedPosts.filter(
+  (post) => post.data.title === "Zarzaparrilla" && post.data.category === "Depurativos" || 
+  post.data.title === "Colon Plus" && post.data.category === "Capsulas" || post.data.title ===
+  "Berro" 
+);
+
+console.log (catPost)
 ---
 
 <MainLayout>
+  
+
+<div class="">
+ <video autoplay loop muted class="video-fondo w-full h-96 sm:h-96 md:h-80 mx-auto sm:w-full object-cover">
+      <source src="/images/video-natures-life-crop-video.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+</div>
+
+  <div class="video-container absolute z-50 top-32 sm:top-32 md:top-24 lg:top-28">
+    
+  <div class="card card-compact flex flex-row lg:flex-col shadow-xl p-0 ml-4 top-0 ">
+  <!-- <div class="bg-base-100 bg-transparent shadow-xl left-10 w-96 "> -->
+    <div class="card-body ">
+      <h2 class="card-title text-white-light text-xl md:text-xl lg:text-xl">Nature's Life</h2>
+      <p class="text-white-light text-xs md:text-xs lg:text-xs">Sanación natural, resultados reales!</p>
+      <div class="card-actions justify-end">
+        
+    <div class="card-actions mt-4 justify-center text-white-light">
+      <Link
+        href="/category/capsulas"
+        style="primary"
+        isFilled={true}
+        text="Nuestros Productos"
+      />
+    </div>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+
+
+    <!-- <div class="">
+      <img src="/images/manos-guantes-hierbas-molida.gif"
+        alt="manos-hierba-molida"
+      />
+    </div> -->
+
+    <h2 class="text-center pt-8 text-5xl font-extrabold">Productos destacados</h2>
+
+    <div class="mt-4 p-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+      {catPost.map((post) => <PostCardStar frontmatter={post} tagType="h2" />)}
+    </div>
+    
   <section
-    class="block mx-auto my-4 gap-5 max-w-3xl mt-8 p-8"
+      class="block mx-auto my-1 gap-5 max-w-3xl mt-2 p-8"
     aria-label="About Me"
   >
-    <div>
+  
+
+  <!-- <div>
       <img
         class="block mx-auto"
         src="/images/logo-removebg.png"
         alt="logo-natures-life"
       />
-    </div>
-    <div class="content">
+    </div> -->
+    <div class="content mt-0">
+      
       <!-- <h1 class="text-6xl font-bold dark:text-white-light my-8">
         Nature's Life
       </h1> -->
-      <p class="text-xl pt-3 my-6">
+      <p class="text-xl pt-3 my-4">
         En <strong>Nature's Life</strong>, nos dedicamos a la venta de
         productos naturales online con las mejores materias primas del mercado.
         Nuestras hierbas medicinales son seleccionadas cuidadosamente para
@@ -47,17 +129,6 @@ import CategoryCloud from "../components/CategoryCloud.astro";
       expertos en herbolaria han trabajado durante años para desarrollar
       fórmulas efectivas que puedan ayudar a las personas a mejorar su salud.
     </p>
-    <p class="text-xl pt-3 my-6">
-      <strong> Nature's Life</strong> es la opción perfecta para ti. Nuestros
-      productos son seguros, eficaces y asequibles.
-    </p>
-
-    <div>
-      <img
-        src="/images/manos-guantes-hierbas-molida.gif"
-        alt="manos-hierba-molida"
-      />
-    </div>
 
     <p class="text-xl pt-3 my-6">
       El producto final es un reflejo del trabajo arduo de cada día. Podrás

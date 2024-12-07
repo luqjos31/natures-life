@@ -9,6 +9,7 @@ image: {
 description: Diabet forte es un suplemento natural que ayuda a controlar la diabetes de forma segura y eficaz. 
 draft: false
 category: Capsulas 
+message: Mensaje
 ---
 **Diabet Forte** es un complemento alimenticio formulado con ingredientes naturales seleccionados por sus propiedades para ayudar a regular los niveles de azúcar en sangre. Esta combinación única de extractos vegetales, vitaminas y minerales contribuye a mejorar el control de la diabetes y a promover un estilo de vida saludable.
 

@@ -9,6 +9,7 @@ image: {
 description: Suplemento nutricional diseñado para ayudar a aliviar los síntomas del asma y la bronquitis
 draft: false
 category: Jarabes
+message: Mensaje
 ---
 
 **Asthma Bronq** es un suplemento nutricional diseñado para ayudar a aliviar los síntomas del asma y la bronquitis. Formulado con una combinación de ingredientes naturales, este producto actúa de forma sinérgica para abrir las vías respiratorias, reducir la inflamación y mejorar la función pulmonar.

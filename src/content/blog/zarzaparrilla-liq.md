@@ -9,6 +9,7 @@ image: {
 description: Con propiedades depurativas, ayudando a eliminar toxinas del organismo y promoviendo la limpieza de la sangre
 draft: false
 category: Depurativos
+message: Desintoxica tu cuerpo naturalmente con Zarzaparrilla. Limpia, energiza y revitaliza tu organismo. En presentación de botellas de 1 litro. Esperamos tu pedido! 
 ---
 
 La **zarzaparrilla** es una planta medicinal que ha sido utilizada durante siglos por diversas culturas por sus propiedades curativas. Sus raíces, en particular, son ricas en compuestos bioactivos que le confieren una amplia gama de beneficios para la salud.

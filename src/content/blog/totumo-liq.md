@@ -9,6 +9,7 @@ image: {
 description: Contienen compuestos bioactivos que le confieren una amplia gama de beneficios para la salud, incluyendo el tratamiento de tumores, quistes
 draft: false
 category: Depurativos
+message: Mensaje
 ---
 
 El **totumo** es una planta medicinal que ha sido utilizada durante siglos por diversas culturas por sus propiedades curativas. Sus frutos, semillas y corteza contienen compuestos bioactivos que le confieren una amplia gama de beneficios para la salud, incluyendo el tratamiento de tumores y quistes.

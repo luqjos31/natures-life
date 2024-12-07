@@ -9,6 +9,7 @@ image: {
 description: Alivio eficaz para los síntomas incómodos con las hemorroides
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 **Hemorroids** es un producto diseñado específicamente para aliviar los síntomas incómodos asociados con las hemorroides, como el dolor, la picazón, el sangrado y la inflamación. Formulado con ingredientes naturales y activos farmacológicos, este producto ofrece un alivio rápido y eficaz.

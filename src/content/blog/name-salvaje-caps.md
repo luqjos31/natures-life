@@ -9,6 +9,7 @@ image: {
 description: Ñame Salvaje es tu respuesta natural para el equilibrio hormonal 
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 El **Ñame salvaje**, también conocido como dioscorea, es un tubérculo ancestral que ha sido utilizado durante siglos en diversas culturas por sus propiedades medicinales y nutricionales. Conocido por su sabor ligeramente dulce y su textura harinosa, el ñame salvaje ofrece una amplia gama de beneficios para la salud.
 

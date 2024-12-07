@@ -9,6 +9,7 @@ image: {
 description: Tu aliado para un hígado saludable reduciendo la acumulación de grasa en el hígado
 draft: false
 category: Depurativos
+message: Mensaje
 ---
 **Hígado Graso** es un suplemento diseñado específicamente para ayudar a combatir y reducir la acumulación de grasa en el hígado. Formulado con una combinación de ingredientes naturales y nutrientes esenciales, este producto ofrece una solución integral para mejorar la salud hepática.
 

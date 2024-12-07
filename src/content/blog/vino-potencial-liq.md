@@ -9,6 +9,7 @@ image: {
 description: Enriquecido con vitamina B12, proporciona un impulso de energía, aumenta el apetito y mejora la absorción de nutrientes esenciales
 draft: false
 category: Depurativos
+message: Mensaje
 ---
 
 **Vino Potencial B12** es una bebida reconstituyente diseñada para revitalizar tu organismo y mejorar tu bienestar general. Enriquecido con vitamina B12, este vino especial te proporciona un impulso de energía, aumenta tu apetito y mejora la absorción de otros nutrientes esenciales.

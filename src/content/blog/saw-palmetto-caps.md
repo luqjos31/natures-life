@@ -9,6 +9,7 @@ image: {
 description: Saw Palmetto es la solución natural para mantener la salud de la próstata
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 **Saw Palmetto** es un suplemento natural extraído de la fruta de una palmera enana originaria de América del Norte. Durante siglos, ha sido utilizado en la medicina tradicional para apoyar la salud de la próstata y aliviar los síntomas asociados al agrandamiento benigno de próstata (BPH).

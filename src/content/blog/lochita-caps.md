@@ -9,6 +9,7 @@ image: {
 description: Oxigena tu cerebro, potencia tus capacidades, aumenta flujo saguíneo cerebral
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 **Lochita** es un suplemento natural diseñado para mejorar la oxigenación cerebral, promoviendo una mayor agudeza mental, concentración y bienestar general. Formulado con una combinación de ingredientes cuidadosamente seleccionados, Lochita busca optimizar el suministro de oxígeno al cerebro, mejorando así su funcionamiento.

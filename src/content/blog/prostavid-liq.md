@@ -9,6 +9,7 @@ image: {
 description: Solución natural para mantener la salud de la próstata
 draft: false
 category: Depurativos
+message: Mensaje
 ---
 
 **Prostavid** es un suplemento nutricional diseñado específicamente para promover la salud de la próstata y ayudar a aliviar los síntomas asociados a problemas prostáticos benignos. Formulado con una combinación de ingredientes naturales de alta calidad, Prostavid ofrece una solución eficaz y segura para mantener una próstata saludable.

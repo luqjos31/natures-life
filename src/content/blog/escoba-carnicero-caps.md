@@ -9,6 +9,7 @@ image: {
 description:  Sus propiedades venotónicas y antiinflamatorias ayudan a mejorar la salud vascular y aliviar la pesadez en las piernas
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 La **Escoba de Carnicero**, también conocida como Conyza canadensis, es una planta medicinal con una larga tradición de uso en la medicina tradicional. Sus propiedades terapéuticas la convierten en un remedio natural eficaz para tratar diversas afecciones.

@@ -9,6 +9,7 @@ image: {
 description: La proteína natural de nuestra piel, huesos, tendones, ligamento y cartílagos
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 El **Colágeno** es una proteína natural que forma parte fundamental de nuestra piel, huesos, tendones, ligamentos y cartílagos. Con el paso del tiempo, la producción de colágeno disminuye, lo que puede ocasionar arrugas, pérdida de elasticidad, dolor articular y otros problemas relacionados con el envejecimiento. Nuestro suplemento de colágeno te ayudará a recuperar la juventud y vitalidad de tu cuerpo.

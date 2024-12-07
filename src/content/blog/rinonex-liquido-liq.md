@@ -9,6 +9,7 @@ image: {
 description: Reconocido por sus propiedades diuréticas y depurativas, ayudando a mantener los riñones saludables y a eliminar toxinas del organismo
 draft: false
 category: Depurativos
+message: Mensaje
 ---
 
 **Riñonex** es un suplemento nutricional formulado con una combinación de ingredientes naturales, especialmente seleccionado para apoyar la salud renal. Al igual que el chancapiedra, el Riñonex es reconocido por sus propiedades diuréticas y depurativas, ayudando a mantener los riñones saludables y a eliminar toxinas del organismo.

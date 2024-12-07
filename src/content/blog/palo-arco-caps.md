@@ -9,6 +9,7 @@ image: {
 description: Una opción natural para el manejo de la diabetes, ademas de ser antioxidante y antiflamatorio
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 El **Palo de Arco**, también conocido como Lapacho, es un árbol originario de la Amazonía que ha sido utilizado durante siglos por las culturas indígenas por sus propiedades medicinales. Su corteza, rica en compuestos bioactivos, se ha estudiado por sus posibles beneficios para la salud, incluyendo el control de la diabetes.

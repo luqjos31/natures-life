@@ -9,6 +9,7 @@ image: {
 description: La solución para reducir peso especialmente en la zona abdominal
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 **Pierda Barriga** es un producto innovador diseñado para ayudarte a alcanzar tus objetivos de pérdida de peso, especialmente en la zona abdominal. Formulado con ingredientes naturales de alta calidad, este suplemento ofrece una solución eficaz y segura para reducir medidas y moldear tu figura.

@@ -14,7 +14,7 @@ import Nav from "../components/Nav.astro";
 
 <html lang="en" data-theme="corporate">
   <MainHead {title} {description} {image} {frontmatter} {robots} />
-  <body class="font-body gradient-background gradient-purple bg-cover bg-center">
+  <body class="font-body bg-leaf-image-opacity bg-cover bg-center" >
     <Nav />
     <main>
       <slot />
@@ -22,7 +22,8 @@ import Nav from "../components/Nav.astro";
     <Footer />
 <style>
 .gradient-background {
-  background-image: linear-gradient(to right top, #d0f288, #c7f072, #bdef5a, #b3ed3f, #a8eb12);
+  background-image: linear-gradient(to left top, #845ec2, #a086d4, #bdaee4, #ddd6f2, #ffffff);
+  /* background-image: linear-gradient(to right top, #d0f288, #c7f072, #bdef5a, #b3ed3f, #a8eb12); */
   /* background-image: linear-gradient(to right top, #2e073f, #2c052b, #24041b, #19010d, #000000); */
 }
   </style>

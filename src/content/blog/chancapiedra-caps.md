@@ -9,6 +9,7 @@ image: {
 description: Tu aliado natural para la salud renal y hepática
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 La **Chancapiedra**, también conocida como quiebrapiedra, es una planta medicinal tradicionalmente utilizada para tratar problemas renales y hepáticos. Sus propiedades diuréticas y depurativas la convierten en un excelente aliado para mantener tu organismo limpio y saludable.

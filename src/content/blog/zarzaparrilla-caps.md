@@ -9,6 +9,7 @@ image: {
 description: Con propiedades depurativas, ayudando a eliminar toxinas del organismo y promoviendo la limpieza de la sangre
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 La **zarzaparrilla** es una planta medicinal que ha sido utilizada durante siglos por diversas culturas por sus propiedades curativas. Sus raíces, en particular, son ricas en compuestos bioactivos que le confieren una amplia gama de beneficios para la salud.

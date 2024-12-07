@@ -9,6 +9,7 @@ image: {
 description: Tu aliado para mejorar la circulación y el tratamiento de varices
 draft: false
 category: Capsulas
+message: Mensaje
 ---
 
 **Daflonx** es un complemento alimenticio que combina los beneficios de tres plantas medicinales: castaño de indias, escoba de carnicero y ginkgo biloba. Esta sinergia de ingredientes naturales lo convierte en una solución eficaz para mejorar la circulación sanguínea, especialmente en las piernas.

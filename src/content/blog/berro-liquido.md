@@ -9,6 +9,7 @@ image: {
 description: Relaja los músculos bronquiales, facilita la expectoración
 draft: false
 category: Jarabes
+message: ¿Cansado de los síntomas del asma y la bronquitis? Descubre los beneficios del Berro y respira libremente. Es el favorito de nuestros clientes
 ---
 
 El **berro** es una planta acuática con una larga tradición en la medicina natural. Sus hojas, tallos y semillas contienen compuestos bioactivos con propiedades antiinflamatorias y expectorantes, lo que lo convierte en un excelente aliado para aliviar los síntomas de enfermedades respiratorias como el asma y la bronquitis.

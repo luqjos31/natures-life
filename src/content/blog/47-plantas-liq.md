@@ -9,6 +9,7 @@ image: {
 description: Promueve la salud del hígado, vesícula biliar y depurar la sangre de toxinas
 draft: false
 category: Depurativos
+message: Mensaje
 ---
 
 Nuestra fórmula de **47 plantas**, cuidadosamente seleccionada y combinada, ofrece una solución natural para promover la salud de tu hígado y vesícula biliar, y depurar tu sangre de toxinas.
