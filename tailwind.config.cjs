@@ -35,7 +35,7 @@ module.exports = {
 			"gradient1": "url('/images/mesh-gradient.png')",
 			"gradient2": "url('/images/mesh-gradient-2.png')",
 			"leaf-image": "url('/images/hojas-verdes-purpuras.jpg')",
-			"leaf-image-opacity": "url('/images/hojas-brillo-00.webp')",
+			"leaf-image-opacity": "url('/images/hojas-brillo-00-olify.webp')",
 			"gradientGreen":"linear-gradient(to right top, #051937, #003052, #00485b, #005e4d, #00712d);",
 			"gradient-light": "linear-gradient(to right top, #dacbd9, #e1d7e3, #e8e3ec, #f1eff4, #fbfbfb);",
 	"gradient-yellow":" linear-gradient(to right, #ff9100, #ffac00, #ffc800, #fde300, #f4ff00);"
