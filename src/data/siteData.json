@@ -1,9 +1,9 @@
 {
-  "title": "My Astro Blog",
-  "description": "My musings about the Astro framework",
+  "title": "Nature's Life",
+  "description": "Vive más sano con Nature's Life",
   "image": {
-    "src": "/images/image-default.jpg",
-    "alt": "My Astro Blog"
+    "src": "/images/logo-removebg.png",
+    "alt": "Nature's Life"
   }
 
 }
