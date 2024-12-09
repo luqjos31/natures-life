@@ -1,6 +1,6 @@
 ---
 title: Chancapiedra
-date: 2023-12-28
+date: 2023-12-12
 author: José Lúquez
 image: {
  	src: "/images/envase-productos/depurativos/chancapiedra-liq.webp",

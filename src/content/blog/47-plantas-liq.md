@@ -1,6 +1,6 @@
 ---
 title: 47 plantas
-date: 2023-12-08
+date: 2023-12-13
 author: José Lúquez
 image: {
  	src: "/images/envase-productos/depurativos/47-plantas-liq.webp",
